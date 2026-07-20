@@ -1,0 +1,13 @@
+# Netlify 部署配置（纯静态 SPA）
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# SPA 重定向：所有未匹配到静态资源的路径回退到 index.html，交给 wouter 前端路由
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
