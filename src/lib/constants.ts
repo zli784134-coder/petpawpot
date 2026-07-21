@@ -1,6 +1,6 @@
 // 站点级常量
-// AI 营养师系统部署地址（沿用 Manus 版已上线的独立部署，后续与营养师系统对齐时再更新）
-export const AI_NUTRITIONIST_URL = 'https://extraordinary-moonbeam-aaffe1.netlify.app/';
+// AI 营养师系统部署地址（我方自研 v0.2.0，LP 求解器+氨基酸校验，取代 Manus 期老原型）
+export const AI_NUTRITIONIST_URL = 'https://petpawpot-nutritionist.netlify.app/';
 
 // 本地化后的图片资源（原 Manus S3 图已下载到 public/images/）
 export const IMAGES = {
