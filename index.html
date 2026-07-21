@@ -16,6 +16,21 @@
       <input type="email" name="email" />
       <input name="bot-field" />
     </form>
+    <!-- B2B 合作询盘表单静态副本，字段须与 src/pages/Partners.tsx 中一致 -->
+    <form name="partner-inquiry" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="company" />
+      <input type="text" name="contact" />
+      <input type="email" name="email" />
+      <input type="text" name="country" />
+      <select name="partnershipType">
+        <option value="retailer"></option>
+        <option value="distributor"></option>
+        <option value="veterinary"></option>
+        <option value="other"></option>
+      </select>
+      <textarea name="message"></textarea>
+      <input name="bot-field" />
+    </form>
 
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
