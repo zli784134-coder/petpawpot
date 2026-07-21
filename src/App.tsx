@@ -11,6 +11,8 @@ import Recipes from '@/pages/Recipes';
 import RecipeDetail from '@/pages/RecipeDetail';
 import Partners from '@/pages/Partners';
 import AboutUs from '@/pages/AboutUs';
+import Blog from '@/pages/Blog';
+import BlogPost from '@/pages/BlogPost';
 import NotFound from '@/pages/NotFound';
 
 function App() {
@@ -27,7 +29,9 @@ function App() {
         <Route path="/recipe-detail/:slug" component={RecipeDetail} />
         <Route path="/partners" component={Partners} />
         <Route path="/about-us" component={AboutUs} />
-        {/* Phase 4 页面（blog）尚未构建，统一落到占位页，避免死链 */}
+        <Route path="/blog" component={Blog} />
+        <Route path="/blog/:slug" component={BlogPost} />
+        {/* 兜底 404 页 */}
         <Route component={NotFound} />
       </Switch>
       <Footer />

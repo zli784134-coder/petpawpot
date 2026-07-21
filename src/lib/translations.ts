@@ -9,6 +9,7 @@ export const translations = {
       whyFreshFeeding: 'Why Fresh Feeding',
       partners: 'Partners',
       aboutUs: 'About Us',
+      blog: 'Blog',
       contact: 'Contact',
     },
     cta: {
@@ -443,8 +444,74 @@ export const translations = {
       },
       submit: 'Submit',
     },
+    blog: {
+      title: 'PetPawPot Blog',
+      subtitle: 'Practical guides on fresh feeding, canine nutrition, feeding costs, and the story behind PetPawPot.',
+      allCategories: 'All Articles',
+      freshFeeding: 'Fresh Feeding',
+      nutrition: 'Nutrition',
+      costs: 'Costs',
+      brandStory: 'Brand Story',
+      readMore: 'Read Article',
+      backToBlog: 'Back to Blog',
+      notFound: 'Article not found',
+      by: 'By',
+      readNext: 'Read Next',
+      ctaTitle: 'Ready to make fresh feeding sustainable?',
+      ctaText: 'Let the AI Nutritionist build a balanced plan, and the Fresh Meal Maker do the cooking.',
+    },
+    notFound: {
+      title: 'This page went off-leash',
+      subtitle: "We couldn't find the page you were looking for. It may have moved, or the link might be broken.",
+      backHome: 'Back to Home',
+      exploreRecipes: 'Explore Recipes',
+      helpfulLinks: 'Popular pages',
+    },
+    seo: {
+      defaultTitle: 'PetPawPot — Fresh Meal Maker for Dogs',
+      home: {
+        title: 'PetPawPot — Fresh Meal Maker for Dogs',
+        description: 'Solve the pet fresh feeding problem with AI guidance, smart recipes, and one-touch cooking. Real ingredients, sustainable fresh feeding.',
+      },
+      freshMealMaker: {
+        title: 'Fresh Meal Maker — One-Touch Fresh Cooking | PetPawPot',
+        description: 'The PetPawPot Fresh Meal Maker gently cooks balanced fresh meals for your dog in minutes. Real ingredients, no daily hassle.',
+      },
+      aiNutritionist: {
+        title: 'AI Nutritionist — Balanced Meal Plans for Dogs | PetPawPot',
+        description: 'The PetPawPot AI Nutritionist builds vet-informed, balanced fresh meal plans tailored to your dog, checking the nutrition math for you.',
+      },
+      recipes: {
+        title: 'Fresh Dog Recipes — Vet-Reviewed Meals | PetPawPot',
+        description: 'Browse vet-reviewed fresh dog food recipes with ingredients, nutrition highlights, and step-by-step prep for the Fresh Meal Maker.',
+      },
+      costComparison: {
+        title: 'Cost Comparison — Fresh vs Kibble vs Subscription | PetPawPot',
+        description: 'See how DIY fresh feeding with a Fresh Meal Maker compares to premium kibble and fresh subscriptions on real daily cost.',
+      },
+      whyFreshFeeding: {
+        title: 'Why Fresh Feeding — Benefits for Your Dog | PetPawPot',
+        description: 'Learn why gently cooked fresh meals matter for your dog’s health, digestion, coat, and energy — and how to feed fresh sustainably.',
+      },
+      partners: {
+        title: 'Partners — B2B & Wholesale | PetPawPot',
+        description: 'Partner with PetPawPot as a retailer, distributor, or veterinary practice. Get in touch about wholesale and cooperation opportunities.',
+      },
+      aboutUs: {
+        title: 'About Us — Our Mission | PetPawPot',
+        description: 'PetPawPot builds tools that make fresh feeding sustainable: a Fresh Meal Maker, an AI Nutritionist, and vet-reviewed recipes.',
+      },
+      blog: {
+        title: 'Blog — Fresh Feeding & Nutrition Guides | PetPawPot',
+        description: 'Practical guides on fresh feeding, canine nutrition, feeding costs, and the PetPawPot story.',
+      },
+      notFound: {
+        title: 'Page Not Found | PetPawPot',
+        description: 'The page you were looking for could not be found.',
+      },
+    },
   },
-  
+
   zh: {
     nav: {
       home: '首页',
@@ -455,6 +522,7 @@ export const translations = {
       whyFreshFeeding: '为什么选择鲜食',
       partners: '合作伙伴',
       aboutUs: '关于我们',
+      blog: '博客',
       contact: '联系我们',
     },
     cta: {
@@ -888,6 +956,72 @@ export const translations = {
         interestedInPartnership: '对合作感兴趣？',
       },
       submit: '提交',
+    },
+    blog: {
+      title: '宠鲜鲜博客',
+      subtitle: '关于鲜食喂养、犬类营养、喂养成本，以及宠鲜鲜背后故事的实用指南。',
+      allCategories: '全部文章',
+      freshFeeding: '鲜食喂养',
+      nutrition: '营养科普',
+      costs: '成本',
+      brandStory: '品牌故事',
+      readMore: '阅读全文',
+      backToBlog: '返回博客',
+      notFound: '未找到该文章',
+      by: '作者',
+      readNext: '继续阅读',
+      ctaTitle: '准备好让鲜食喂养可持续了吗？',
+      ctaText: '让 AI 营养师搭配均衡方案，让鲜食机负责烹饪。',
+    },
+    notFound: {
+      title: '这个页面跑丢了',
+      subtitle: '我们找不到你要访问的页面。它可能已经移动，或者链接失效了。',
+      backHome: '返回首页',
+      exploreRecipes: '浏览食谱',
+      helpfulLinks: '热门页面',
+    },
+    seo: {
+      defaultTitle: '宠鲜鲜 — 狗狗鲜食机',
+      home: {
+        title: '宠鲜鲜 — 狗狗鲜食机',
+        description: '用 AI 指导、智能食谱和一键烹饪，解决宠物家庭的鲜食难题。真实食材，可持续鲜食。',
+      },
+      freshMealMaker: {
+        title: '鲜食机 — 一键鲜食烹饪 | 宠鲜鲜',
+        description: '宠鲜鲜鲜食机几分钟温和烹饪出均衡鲜食，真实食材，告别每天的麻烦。',
+      },
+      aiNutritionist: {
+        title: 'AI 营养师 — 狗狗均衡膳食方案 | 宠鲜鲜',
+        description: '宠鲜鲜 AI 营养师为你的狗狗定制兽医参考、营养均衡的鲜食方案，替你核查营养搭配。',
+      },
+      recipes: {
+        title: '狗狗鲜食食谱 — 兽医审核餐单 | 宠鲜鲜',
+        description: '浏览经兽医审核的狗狗鲜食食谱，含食材、营养亮点和鲜食机分步做法。',
+      },
+      costComparison: {
+        title: '成本对比 — 鲜食 vs 干粮 vs 订阅 | 宠鲜鲜',
+        description: '看看用鲜食机自己做鲜食，在真实每日成本上与优质干粮、鲜食订阅相比如何。',
+      },
+      whyFreshFeeding: {
+        title: '为什么选择鲜食 — 对狗狗的好处 | 宠鲜鲜',
+        description: '了解温和烹饪的鲜食为什么对狗狗的健康、消化、被毛和活力很重要，以及如何可持续地喂鲜食。',
+      },
+      partners: {
+        title: '合作伙伴 — B2B 与批发 | 宠鲜鲜',
+        description: '以零售商、经销商或宠物医疗机构身份与宠鲜鲜合作，联系我们了解批发与合作机会。',
+      },
+      aboutUs: {
+        title: '关于我们 — 我们的使命 | 宠鲜鲜',
+        description: '宠鲜鲜打造让鲜食喂养可持续的工具：鲜食机、AI 营养师和经兽医审核的食谱。',
+      },
+      blog: {
+        title: '博客 — 鲜食与营养指南 | 宠鲜鲜',
+        description: '关于鲜食喂养、犬类营养、喂养成本，以及宠鲜鲜故事的实用指南。',
+      },
+      notFound: {
+        title: '页面未找到 | 宠鲜鲜',
+        description: '你要访问的页面不存在。',
+      },
     },
   },
 };
