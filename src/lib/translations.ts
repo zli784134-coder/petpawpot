@@ -263,6 +263,23 @@ export const translations = {
       filterByGoal: 'By Goal',
       filterByCost: 'By Cost',
       filterByTime: 'By Time',
+
+      // 列表与详情页通用标签（Phase 3 补）
+      allCategories: 'All Recipes',
+      ingredients: 'Ingredients',
+      portions: 'Portions',
+      servings: 'Servings',
+      estCost: 'Estimated Cost',
+      prepTime: 'Prep Time',
+      difficulty: 'Difficulty',
+      nutritionHighlights: 'Nutrition Highlights',
+      freshMakerNote: 'Fresh Meal Maker Instructions',
+      preparationSteps: 'Preparation Steps',
+      backToRecipes: 'Back to All Recipes',
+      notFound: 'Recipe not found.',
+      perServing: 'per serving',
+      easy: 'Easy',
+      medium: 'Medium',
     },
     
     costComparison: {
@@ -363,6 +380,24 @@ export const translations = {
       
       partnerForm: 'Partner Inquiry Form',
       partnerCTA: 'Interested in partnering? Let\'s talk.',
+
+      // 询盘表单标签（Phase 3 补，走 Netlify Forms）
+      formIntro: 'Tell us about your business and how you\'d like to partner. Our team responds within 2 business days.',
+      formCompany: 'Company Name',
+      formContact: 'Contact Person',
+      formEmail: 'Email',
+      formCountry: 'Country / Region',
+      formType: 'Partnership Type',
+      formMessage: 'Message',
+      formSelect: 'Please select',
+      formSubmit: 'Submit Inquiry',
+      formSubmitting: 'Submitting…',
+      formSuccessTitle: 'Thank you for your interest!',
+      formSuccessText: 'We\'ve received your inquiry and will be in touch within 2 business days.',
+      typeRetailer: 'Pet Retailer',
+      typeDistributor: 'Distributor',
+      typeVeterinary: 'Veterinary Clinic',
+      typeOther: 'Other',
     },
     
     aboutUs: {
@@ -674,6 +709,23 @@ export const translations = {
       filterByGoal: '按目标',
       filterByCost: '按成本',
       filterByTime: '按时间',
+
+      // 列表与详情页通用标签（Phase 3 补）
+      allCategories: '全部食谱',
+      ingredients: '食材',
+      portions: '份量',
+      servings: '份数',
+      estCost: '预计成本',
+      prepTime: '准备时间',
+      difficulty: '难度',
+      nutritionHighlights: '营养要点',
+      freshMakerNote: '鲜食机使用说明',
+      preparationSteps: '制作步骤',
+      backToRecipes: '返回全部食谱',
+      notFound: '未找到该食谱。',
+      perServing: '每份',
+      easy: '简单',
+      medium: '适中',
     },
     
     costComparison: {
@@ -774,6 +826,24 @@ export const translations = {
       
       partnerForm: '合作咨询表',
       partnerCTA: '有兴趣合作？让我们谈谈。',
+
+      // 询盘表单标签（Phase 3 补，走 Netlify Forms）
+      formIntro: '告诉我们您的业务以及期望的合作方式。我们的团队将在 2 个工作日内回复。',
+      formCompany: '公司名称',
+      formContact: '联系人',
+      formEmail: '电子邮件',
+      formCountry: '国家 / 地区',
+      formType: '合作类型',
+      formMessage: '留言',
+      formSelect: '请选择',
+      formSubmit: '提交咨询',
+      formSubmitting: '提交中…',
+      formSuccessTitle: '感谢您的关注！',
+      formSuccessText: '我们已收到您的咨询，将在 2 个工作日内与您联系。',
+      typeRetailer: '宠物零售商',
+      typeDistributor: '分销商',
+      typeVeterinary: '兽医诊所',
+      typeOther: '其他',
     },
     
     aboutUs: {

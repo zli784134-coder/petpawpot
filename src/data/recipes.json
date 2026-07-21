@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "chicken-rice-carrot-daily",
+    "category": "dailyMeals",
+    "image": "/images/recipe-chicken-rice_2a7ac832.png",
+    "name": { "en": "Chicken, Rice & Carrot Daily Meal", "zh": "鸡肉米饭胡萝卜日常餐" },
+    "summary": {
+      "en": "A balanced everyday meal built on lean chicken, easy-to-digest rice, and beta-carotene-rich carrots. A reliable staple for healthy adult dogs.",
+      "zh": "以瘦鸡肉、易消化米饭和富含β-胡萝卜素的胡萝卜为基础的均衡日常餐，是健康成犬的可靠主食。"
+    },
+    "servings": { "en": "3 daily portions (25kg dog)", "zh": "3 份日常餐（25kg 犬）" },
+    "cost": { "en": "$2.40 / day", "zh": "¥17 / 天" },
+    "prepTime": { "en": "15 min", "zh": "15 分钟" },
+    "difficulty": "easy",
+    "ingredients": {
+      "en": ["Chicken breast — 300g", "White rice (cooked) — 150g", "Carrot, diced — 80g", "Fish oil — 1 tsp", "Calcium supplement — as directed"],
+      "zh": ["鸡胸肉 — 300g", "白米饭（熟）— 150g", "胡萝卜丁 — 80g", "鱼油 — 1 茶匙", "钙补充剂 — 按说明"]
+    },
+    "nutrition": {
+      "en": ["High-quality lean protein for muscle maintenance", "Gentle carbohydrates for steady energy", "Beta-carotene supports eye and skin health", "Omega-3 from fish oil for coat shine"],
+      "zh": ["优质瘦肉蛋白，维持肌肉", "温和碳水，提供稳定能量", "β-胡萝卜素，支持眼睛与皮肤健康", "鱼油 Omega-3，让毛发亮泽"]
+    },
+    "freshMakerNote": {
+      "en": "Add chicken and carrot to the Fresh Meal Maker first, select the \"Poultry + Veg\" program (18 min). Stir in pre-cooked rice, fish oil, and calcium after the cycle finishes and let cool to serving temperature.",
+      "zh": "先将鸡肉和胡萝卜放入鲜食机，选择\"禽肉+蔬菜\"程序（18 分钟）。程序结束后拌入预煮米饭、鱼油和钙剂，冷却至适口温度即可。"
+    },
+    "steps": {
+      "en": ["Dice chicken and carrot into 1.5cm cubes.", "Load into the Fresh Meal Maker and run the Poultry + Veg program.", "Stir in cooked rice, fish oil, and calcium supplement.", "Cool to room temperature and portion into 3 servings."],
+      "zh": ["将鸡肉和胡萝卜切成 1.5cm 小块。", "放入鲜食机，运行\"禽肉+蔬菜\"程序。", "拌入熟米饭、鱼油和钙补充剂。", "冷却至室温，分成 3 份。"]
+    }
+  },
+  {
+    "slug": "salmon-pumpkin-broccoli-fresh",
+    "category": "dailyMeals",
+    "image": "/images/recipe-chicken-rice_2a7ac832.png",
+    "name": { "en": "Salmon, Pumpkin & Broccoli Fresh Meal", "zh": "三文鱼南瓜西兰花鲜食餐" },
+    "summary": {
+      "en": "Omega-rich salmon paired with fiber-dense pumpkin and antioxidant broccoli — ideal for dogs needing skin, coat, and digestive support.",
+      "zh": "富含 Omega 的三文鱼搭配高纤维南瓜和富含抗氧化物的西兰花，适合需要皮肤、被毛和消化支持的狗狗。"
+    },
+    "servings": { "en": "3 daily portions (25kg dog)", "zh": "3 份日常餐（25kg 犬）" },
+    "cost": { "en": "$3.10 / day", "zh": "¥22 / 天" },
+    "prepTime": { "en": "18 min", "zh": "18 分钟" },
+    "difficulty": "easy",
+    "ingredients": {
+      "en": ["Salmon fillet (boneless) — 280g", "Pumpkin, cubed — 120g", "Broccoli florets — 70g", "Olive oil — 1 tsp", "Calcium supplement — as directed"],
+      "zh": ["三文鱼柳（去骨）— 280g", "南瓜块 — 120g", "西兰花小朵 — 70g", "橄榄油 — 1 茶匙", "钙补充剂 — 按说明"]
+    },
+    "nutrition": {
+      "en": ["Omega-3 (EPA/DHA) for skin and joint health", "Soluble fiber from pumpkin aids digestion", "Broccoli delivers vitamin C and antioxidants", "Naturally grain-free for sensitive dogs"],
+      "zh": ["Omega-3（EPA/DHA），护肤护关节", "南瓜可溶性纤维，助消化", "西兰花提供维生素 C 和抗氧化物", "天然无谷，适合敏感犬"]
+    },
+    "freshMakerNote": {
+      "en": "Use the \"Fish + Veg\" gentle-steam program (16 min) to preserve omega-3 fatty acids. Do not overcook salmon — the Fresh Meal Maker's low-temp setting keeps it moist and flaky.",
+      "zh": "使用\"鱼类+蔬菜\"温和蒸制程序（16 分钟）以保留 Omega-3 脂肪酸。切勿过度烹饪三文鱼——鲜食机的低温档能保持其湿润松软。"
+    },
+    "steps": {
+      "en": ["Cube pumpkin and cut broccoli into small florets.", "Place salmon and vegetables in the Fresh Meal Maker.", "Run the Fish + Veg gentle-steam program.", "Drizzle olive oil, add calcium, mix and cool before serving."],
+      "zh": ["南瓜切块，西兰花切小朵。", "将三文鱼和蔬菜放入鲜食机。", "运行\"鱼类+蔬菜\"温和蒸制程序。", "淋橄榄油、加钙剂，拌匀冷却后喂食。"]
+    }
+  },
+  {
+    "slug": "egg-rice-vegetable-simple",
+    "category": "budgetFriendly",
+    "image": "/images/recipe-chicken-rice_2a7ac832.png",
+    "name": { "en": "Egg, Rice & Vegetable Simple Meal", "zh": "鸡蛋米饭蔬菜简易餐" },
+    "summary": {
+      "en": "A budget-friendly, protein-complete meal using affordable eggs and pantry staples. Perfect for first-time fresh feeders on a tight budget.",
+      "zh": "使用平价鸡蛋和常备食材的经济型全蛋白餐，非常适合预算有限的鲜食新手。"
+    },
+    "servings": { "en": "2 daily portions (25kg dog)", "zh": "2 份日常餐（25kg 犬）" },
+    "cost": { "en": "$1.60 / day", "zh": "¥11 / 天" },
+    "prepTime": { "en": "12 min", "zh": "12 分钟" },
+    "difficulty": "easy",
+    "ingredients": {
+      "en": ["Whole eggs — 3", "White rice (cooked) — 180g", "Mixed vegetables (peas, carrot) — 90g", "Sunflower oil — 1 tsp", "Calcium supplement — as directed"],
+      "zh": ["全蛋 — 3 个", "白米饭（熟）— 180g", "什锦蔬菜（豌豆、胡萝卜）— 90g", "葵花籽油 — 1 茶匙", "钙补充剂 — 按说明"]
+    },
+    "nutrition": {
+      "en": ["Eggs provide complete, highly digestible protein", "Affordable balanced energy from rice", "Mixed vegetables add vitamins and fiber", "Low cost without sacrificing nutrition"],
+      "zh": ["鸡蛋提供完整、易消化的蛋白质", "米饭提供经济均衡的能量", "什锦蔬菜补充维生素和纤维", "低成本又不牺牲营养"]
+    },
+    "freshMakerNote": {
+      "en": "Crack eggs directly into the Fresh Meal Maker with the vegetables and run the \"Egg + Veg\" program (10 min). Fold in cooked rice and calcium afterwards. Fully cook eggs — never serve raw.",
+      "zh": "将鸡蛋直接打入鲜食机与蔬菜一起，运行\"蛋类+蔬菜\"程序（10 分钟）。之后拌入熟米饭和钙剂。鸡蛋须完全煮熟——切勿生食。"
+    },
+    "steps": {
+      "en": ["Dice vegetables into small pieces.", "Crack eggs into the Fresh Meal Maker with vegetables.", "Run the Egg + Veg program until fully set.", "Mix in rice and calcium, cool and portion into 2 servings."],
+      "zh": ["将蔬菜切成小块。", "把鸡蛋和蔬菜一起打入鲜食机。", "运行\"蛋类+蔬菜\"程序至完全凝固。", "拌入米饭和钙剂，冷却分成 2 份。"]
+    }
+  },
+  {
+    "slug": "beef-sweet-potato-high-protein",
+    "category": "healthyWeight",
+    "image": "/images/recipe-chicken-rice_2a7ac832.png",
+    "name": { "en": "Beef & Sweet Potato High-Protein Meal", "zh": "牛肉红薯高蛋白餐" },
+    "summary": {
+      "en": "A high-protein, nutrient-dense meal for active dogs and healthy-weight goals. Lean beef with slow-release sweet potato carbs.",
+      "zh": "为活跃犬和健康体重目标设计的高蛋白高营养餐，瘦牛肉搭配缓释碳水的红薯。"
+    },
+    "servings": { "en": "3 daily portions (25kg dog)", "zh": "3 份日常餐（25kg 犬）" },
+    "cost": { "en": "$3.40 / day", "zh": "¥24 / 天" },
+    "prepTime": { "en": "20 min", "zh": "20 分钟" },
+    "difficulty": "medium",
+    "ingredients": {
+      "en": ["Lean ground beef — 320g", "Sweet potato, cubed — 140g", "Green beans — 60g", "Flaxseed oil — 1 tsp", "Calcium supplement — as directed"],
+      "zh": ["瘦牛肉末 — 320g", "红薯块 — 140g", "四季豆 — 60g", "亚麻籽油 — 1 茶匙", "钙补充剂 — 按说明"]
+    },
+    "nutrition": {
+      "en": ["High protein supports lean muscle in active dogs", "Sweet potato provides slow-release energy", "Iron and B-vitamins from beef", "Green beans add fiber for satiety and weight control"],
+      "zh": ["高蛋白，支持活跃犬瘦肌肉", "红薯提供缓释能量", "牛肉富含铁和 B 族维生素", "四季豆增加纤维，助饱腹与控重"]
+    },
+    "freshMakerNote": {
+      "en": "Run the \"Red Meat + Root Veg\" program (22 min) so the sweet potato softens fully. Drain excess fat from the beef after cooking to keep the meal lean for weight management.",
+      "zh": "运行\"红肉+根茎菜\"程序（22 分钟）使红薯充分软化。烹饪后沥去牛肉多余油脂，保持低脂以利控重。"
+    },
+    "steps": {
+      "en": ["Cube sweet potato and trim green beans.", "Add beef and vegetables to the Fresh Meal Maker.", "Run the Red Meat + Root Veg program.", "Drain excess fat, add oil and calcium, cool and portion."],
+      "zh": ["红薯切块，四季豆去筋。", "将牛肉和蔬菜放入鲜食机。", "运行\"红肉+根茎菜\"程序。", "沥去多余油脂，加油和钙剂，冷却分份。"]
+    }
+  },
+  {
+    "slug": "low-cost-chicken-thigh-fresh",
+    "category": "budgetFriendly",
+    "image": "/images/recipe-chicken-rice_2a7ac832.png",
+    "name": { "en": "Low-Cost Chicken Thigh Fresh Meal", "zh": "经济鸡腿肉鲜食餐" },
+    "summary": {
+      "en": "Juicy, affordable chicken thigh delivers rich flavor and energy at a lower price than breast — a wallet-friendly fresh feeding option.",
+      "zh": "多汁实惠的鸡腿肉，风味浓郁、能量充足，价格低于鸡胸肉，是超值的鲜食选择。"
+    },
+    "servings": { "en": "3 daily portions (25kg dog)", "zh": "3 份日常餐（25kg 犬）" },
+    "cost": { "en": "$1.90 / day", "zh": "¥13 / 天" },
+    "prepTime": { "en": "16 min", "zh": "16 分钟" },
+    "difficulty": "easy",
+    "ingredients": {
+      "en": ["Chicken thigh (boneless, skinless) — 300g", "Brown rice (cooked) — 160g", "Zucchini, diced — 80g", "Fish oil — 1 tsp", "Calcium supplement — as directed"],
+      "zh": ["鸡腿肉（去骨去皮）— 300g", "糙米饭（熟）— 160g", "西葫芦丁 — 80g", "鱼油 — 1 茶匙", "钙补充剂 — 按说明"]
+    },
+    "nutrition": {
+      "en": ["Thigh meat is richer in flavor and iron than breast", "Brown rice adds fiber and steady energy", "Zucchini is low-calorie and hydrating", "Excellent nutrition at a low daily cost"],
+      "zh": ["鸡腿肉比鸡胸肉风味更浓、铁含量更高", "糙米增加纤维与稳定能量", "西葫芦低卡且补水", "低日成本下的优秀营养"]
+    },
+    "freshMakerNote": {
+      "en": "Select the \"Poultry + Veg\" program (18 min). Thigh meat stays tender at the Fresh Meal Maker's controlled temperature — no need to add extra oil during cooking.",
+      "zh": "选择\"禽肉+蔬菜\"程序（18 分钟）。鸡腿肉在鲜食机的控温下保持嫩滑，烹饪时无需额外加油。"
+    },
+    "steps": {
+      "en": ["Dice chicken thigh and zucchini.", "Load into the Fresh Meal Maker and run Poultry + Veg.", "Stir in brown rice, fish oil, and calcium.", "Cool and portion into 3 servings."],
+      "zh": ["鸡腿肉和西葫芦切丁。", "放入鲜食机，运行\"禽肉+蔬菜\"程序。", "拌入糙米饭、鱼油和钙剂。", "冷却分成 3 份。"]
+    }
+  },
+  {
+    "slug": "senior-dog-soft-fresh",
+    "category": "seniorMeals",
+    "image": "/images/recipe-chicken-rice_2a7ac832.png",
+    "name": { "en": "Senior Dog Soft Fresh Meal", "zh": "老年犬软质鲜食餐" },
+    "summary": {
+      "en": "A soft, easy-to-chew meal formulated for senior dogs with sensitive teeth and slower digestion. Gentle ingredients, joint-supporting nutrients.",
+      "zh": "为牙齿敏感、消化较慢的老年犬设计的柔软易嚼餐，采用温和食材和护关节营养素。"
+    },
+    "servings": { "en": "3 daily portions (20kg senior dog)", "zh": "3 份日常餐（20kg 老年犬）" },
+    "cost": { "en": "$2.70 / day", "zh": "¥19 / 天" },
+    "prepTime": { "en": "20 min", "zh": "20 分钟" },
+    "difficulty": "medium",
+    "ingredients": {
+      "en": ["Turkey mince — 260g", "Mashed potato — 120g", "Soft-cooked carrot & pumpkin — 90g", "Fish oil — 1 tsp", "Joint supplement (glucosamine) — as directed", "Calcium supplement — as directed"],
+      "zh": ["火鸡肉末 — 260g", "土豆泥 — 120g", "软煮胡萝卜与南瓜 — 90g", "鱼油 — 1 茶匙", "关节补充剂（氨基葡萄糖）— 按说明", "钙补充剂 — 按说明"]
+    },
+    "nutrition": {
+      "en": ["Lean turkey is easy to digest for older dogs", "Soft texture is gentle on aging teeth", "Glucosamine supports joint mobility", "Omega-3 helps reduce age-related inflammation"],
+      "zh": ["瘦火鸡肉，老年犬易消化", "柔软质地，呵护衰老牙齿", "氨基葡萄糖，支持关节灵活", "Omega-3，帮助缓解年龄相关炎症"]
+    },
+    "freshMakerNote": {
+      "en": "Use the \"Soft Cook\" extended program (24 min) for a tender, mashable texture. After cooking, lightly mash everything together so senior dogs can eat without strain. Add supplements once cooled.",
+      "zh": "使用\"软煮\"延长程序（24 分钟）以获得柔软可捣的质地。烹饪后将所有食材轻轻捣匀，方便老年犬进食。冷却后再加入补充剂。"
+    },
+    "steps": {
+      "en": ["Chop carrot and pumpkin small for even softening.", "Add turkey and vegetables to the Fresh Meal Maker.", "Run the Soft Cook extended program.", "Mash with potato, stir in oil and supplements, cool and portion."],
+      "zh": ["胡萝卜和南瓜切小块，利于均匀软化。", "将火鸡肉和蔬菜放入鲜食机。", "运行\"软煮\"延长程序。", "与土豆泥一起捣匀，拌入油和补充剂，冷却分份。"]
+    }
+  }
+]
