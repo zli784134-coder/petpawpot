@@ -1,5 +1,6 @@
 import { Link, useRoute } from 'wouter';
 import { useLanguage } from '@/contexts/LanguageContext';
+import Seo from '@/components/Seo';
 import { AI_NUTRITIONIST_URL } from '@/lib/constants';
 import recipesData from '@/data/recipes.json';
 import {
@@ -26,6 +27,7 @@ export default function RecipeDetail() {
   if (!recipe) {
     return (
       <main className="container py-24 text-center">
+        <Seo titleKey="seo.notFound.title" descKey="seo.notFound.description" />
         <h1 className="text-3xl font-bold text-primary">{t('recipes.notFound')}</h1>
         <Link
           href="/recipes"
@@ -47,6 +49,11 @@ export default function RecipeDetail() {
 
   return (
     <main>
+      <Seo
+        title={`${recipe.name[lang]} | PetPawPot`}
+        description={recipe.summary[lang]}
+        image={recipe.image}
+      />
       {/* ===== Hero ===== */}
       <section className="bg-cream">
         <div className="container py-12 lg:py-16">

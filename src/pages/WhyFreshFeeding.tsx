@@ -1,5 +1,6 @@
 import { Link } from 'wouter';
 import { useLanguage } from '@/contexts/LanguageContext';
+import Seo from '@/components/Seo';
 import { AI_NUTRITIONIST_URL, IMAGES } from '@/lib/constants';
 import { ArrowRight, Eye, Leaf, HeartPulse, Check, X, Sprout } from 'lucide-react';
 
@@ -28,6 +29,7 @@ export default function WhyFreshFeeding() {
 
   return (
     <main>
+      <Seo titleKey="seo.whyFreshFeeding.title" descKey="seo.whyFreshFeeding.description" />
       {/* ===== Hero ===== */}
       <section className="bg-cream">
         <div className="container py-16 lg:py-24 text-center">

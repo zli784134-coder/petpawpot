@@ -1,5 +1,6 @@
 import { Link } from 'wouter';
 import { useLanguage } from '@/contexts/LanguageContext';
+import Seo from '@/components/Seo';
 import { AI_NUTRITIONIST_URL, IMAGES } from '@/lib/constants';
 import { ArrowRight, Sparkles, Check, Info, Link2 } from 'lucide-react';
 
@@ -30,6 +31,7 @@ export default function AiNutritionist() {
 
   return (
     <main>
+      <Seo titleKey="seo.aiNutritionist.title" descKey="seo.aiNutritionist.description" />
       {/* ===== Hero ===== */}
       <section className="bg-cream">
         <div className="container py-16 lg:py-24">

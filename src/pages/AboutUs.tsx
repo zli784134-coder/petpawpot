@@ -1,5 +1,6 @@
 import { Link } from 'wouter';
 import { useLanguage } from '@/contexts/LanguageContext';
+import Seo from '@/components/Seo';
 import { AI_NUTRITIONIST_URL, IMAGES } from '@/lib/constants';
 import { Target, Eye, Lightbulb, Heart, ShieldCheck, Sparkles, Repeat, PiggyBank, ArrowRight } from 'lucide-react';
 
@@ -15,6 +16,7 @@ export default function AboutUs() {
 
   return (
     <main>
+      <Seo titleKey="seo.aboutUs.title" descKey="seo.aboutUs.description" />
       {/* ===== Hero ===== */}
       <section className="bg-cream">
         <div className="container py-16 lg:py-24 text-center">

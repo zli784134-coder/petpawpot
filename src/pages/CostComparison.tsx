@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'wouter';
 import { useLanguage } from '@/contexts/LanguageContext';
+import Seo from '@/components/Seo';
 import { AI_NUTRITIONIST_URL } from '@/lib/constants';
 import { ArrowRight, Calculator, PiggyBank, Check } from 'lucide-react';
 
@@ -41,6 +42,7 @@ export default function CostComparison() {
 
   return (
     <main>
+      <Seo titleKey="seo.costComparison.title" descKey="seo.costComparison.description" />
       {/* ===== Hero ===== */}
       <section className="bg-cream">
         <div className="container py-16 lg:py-24 text-center">

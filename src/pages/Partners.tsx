@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import Seo from '@/components/Seo';
 import { IMAGES } from '@/lib/constants';
 import {
   Handshake,
@@ -62,6 +63,7 @@ export default function Partners() {
 
   return (
     <main>
+      <Seo titleKey="seo.partners.title" descKey="seo.partners.description" />
       {/* ===== Hero ===== */}
       <section className="bg-cream">
         <div className="container py-16 lg:py-24 text-center">

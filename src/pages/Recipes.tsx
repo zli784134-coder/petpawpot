@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'wouter';
 import { useLanguage } from '@/contexts/LanguageContext';
+import Seo from '@/components/Seo';
 import { AI_NUTRITIONIST_URL } from '@/lib/constants';
 import recipesData from '@/data/recipes.json';
 import { ArrowRight, Clock, Utensils, DollarSign, ChefHat, Check } from 'lucide-react';
@@ -37,6 +38,7 @@ export default function Recipes() {
 
   return (
     <main>
+      <Seo titleKey="seo.recipes.title" descKey="seo.recipes.description" />
       {/* ===== Hero ===== */}
       <section className="bg-cream">
         <div className="container py-16 lg:py-24 text-center">
