@@ -7,6 +7,10 @@ import FreshMealMaker from '@/pages/FreshMealMaker';
 import AiNutritionist from '@/pages/AiNutritionist';
 import CostComparison from '@/pages/CostComparison';
 import WhyFreshFeeding from '@/pages/WhyFreshFeeding';
+import Recipes from '@/pages/Recipes';
+import RecipeDetail from '@/pages/RecipeDetail';
+import Partners from '@/pages/Partners';
+import AboutUs from '@/pages/AboutUs';
 import NotFound from '@/pages/NotFound';
 
 function App() {
@@ -19,7 +23,11 @@ function App() {
         <Route path="/ai-nutritionist" component={AiNutritionist} />
         <Route path="/cost-comparison" component={CostComparison} />
         <Route path="/why-fresh-feeding" component={WhyFreshFeeding} />
-        {/* Phase 3-4 页面（recipes/partners/about/blog）尚未构建，统一落到占位页，避免死链 */}
+        <Route path="/recipes" component={Recipes} />
+        <Route path="/recipe-detail/:slug" component={RecipeDetail} />
+        <Route path="/partners" component={Partners} />
+        <Route path="/about-us" component={AboutUs} />
+        {/* Phase 4 页面（blog）尚未构建，统一落到占位页，避免死链 */}
         <Route component={NotFound} />
       </Switch>
       <Footer />
