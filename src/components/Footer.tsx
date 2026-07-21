@@ -83,11 +83,7 @@ export default function Footer() {
                   {t('nav.partners')}
                 </Link>
               </li>
-              <li>
-                <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors">
-                  {t('nav.contact')}
-                </Link>
-              </li>
+              {/* Contact 链接已并入 Partners 页的询盘表单，Phase 4 如需独立 /contact 页再启用 */}
             </ul>
           </div>
         </div>

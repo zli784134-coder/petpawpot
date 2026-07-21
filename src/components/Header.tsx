@@ -17,7 +17,7 @@ export default function Header() {
     { key: 'whyFreshFeeding', label: t('nav.whyFreshFeeding'), href: '/why-fresh-feeding' },
     { key: 'partners', label: t('nav.partners'), href: '/partners' },
     { key: 'aboutUs', label: t('nav.aboutUs'), href: '/about-us' },
-    { key: 'blog', label: language === 'en' ? 'Blog' : '博客', href: '/blog' },
+    // Blog 导航待 Phase 4 博客页面建成后再启用（避免坏链）
   ];
 
   return (

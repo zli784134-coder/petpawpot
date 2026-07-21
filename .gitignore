@@ -25,3 +25,10 @@ pnpm-debug.log*
 
 # Netlify 本地
 .netlify/
+
+# 构建增量缓存
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# 内部归档（Manus 导出资料，不公开到 public 仓库）
+docs/reference/
