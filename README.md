@@ -39,3 +39,5 @@ npm run preview    # 本地预览 dist/
 - Phase 2：产品页、AI 营养师页、成本对比、鲜食优势
 - Phase 3：食谱列表+详情、Partners（含 Netlify Forms 表单）、About
 - Phase 4：博客、404、SEO meta/OG、全站 QA
+
+# 部署：GitHub(main) → Netlify(petpawpot-official) 自动部署，51ee64a 验证
