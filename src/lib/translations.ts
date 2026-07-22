@@ -27,9 +27,12 @@ export const translations = {
       startNow: 'Start Now',
     },
     hero: {
-      title: 'The Fresh Meal Maker: Solving the Pet Fresh Feeding Problem',
-      subtitle: 'Pet parents want fresh food for their dogs. But daily cooking is time-consuming, nutrition planning is confusing, and maintaining consistency is hard. The PetPawPot Fresh Meal Maker solves this with AI guidance, smart recipes, and one-touch cooking.',
+      title: 'Fresh Meals for Your Pet, Made Simple.',
+      subtitle: 'AI-powered nutrition, personalized recipes, and one-touch cooking—all in one smart fresh meal maker.',
       tagline: 'Real ingredients. One-touch cooking. Sustainable fresh feeding.',
+      pill1: 'AI-powered nutrition',
+      pill2: 'Personalized recipes',
+      pill3: 'One-touch cooking',
     },
     home: {
       // Section 1: The Problem
@@ -59,12 +62,20 @@ export const translations = {
       solutionFeature4Desc: 'See exactly what you\'re spending. For many dogs, home fresh feeding costs less than premium kibble.',
       
       // Section 3: The Core Scenario
-      section3Title: 'The Real-Life Scenario',
-      section3Text: 'Evening. You\'re preparing your family\'s dinner. At the same time, you prepare your dog\'s ingredients—meat, vegetables, supplements. Start the PetPawPot Fresh Meal Maker. When you sit down to eat, your dog\'s fresh 35°C meal is ready too. This is not complex cooking. This is fresh feeding made simple.',
+      section3Title: 'Fresh Feeding That Fits Real Life',
+      section3Text: 'Prepare your family\'s dinner while PetPawPot prepares your pet\'s. Add fresh ingredients, start the machine, and serve a warm meal when you\'re ready to eat.',
       
       // Section 4: The Results
       section4Title: 'What Pet Parents Achieve',
       section4Text: 'With PetPawPot, families can:',
+      achieve1Title: 'Save Time',
+      achieve1Desc: 'Reduce daily preparation from 60 minutes to 15 minutes.',
+      achieve2Title: 'Plan with Confidence',
+      achieve2Desc: 'Get AI-guided portions and recipes tailored to your pet.',
+      achieve3Title: 'Control the Cost',
+      achieve3Desc: 'Choose ingredients and recipes that fit your budget.',
+      achieve4Title: 'Stay Consistent',
+      achieve4Desc: 'Make fresh feeding part of your pet\'s daily routine.',
       result1: 'Reduce daily effort from 60 minutes to 15 minutes',
       result2: 'Eliminate nutrition guesswork with AI guidance',
       result3: 'Control costs with transparent pricing and local ingredients',
@@ -133,7 +144,7 @@ export const translations = {
       recipeCookTime: '30 min',
 
       // Section 8: Partner CTA banner
-      section8Title: 'Grow With the Fresh Feeding Category',
+      section8Title: 'Become a PetPawPot Partner',
       section8Text: 'Retailers, distributors, and clinics: partner with PetPawPot to bring a complete fresh feeding solution to your customers.',
 
       // Section 9: Final CTA banner
@@ -540,9 +551,12 @@ export const translations = {
       startNow: '立即开始',
     },
     hero: {
-      title: '鲜食机：解决宠物家庭的鲜食难题',
-      subtitle: '宠物主人想给狗狗吃鲜食。但每天做饭太耗时，营养搭配很困惑，坚持也很难。宠鲜鲜通过 AI 指导、智能食谱和一键烹饪，让鲜食变简单。',
+      title: '给宠物的鲜食，简单到位。',
+      subtitle: 'AI 营养搭配、个性化食谱、一键烹饪——全部集成在一台智能鲜食机里。',
       tagline: '真实食材。一键烹饪。可持续鲜食。',
+      pill1: 'AI 营养搭配',
+      pill2: '个性化食谱',
+      pill3: '一键烹饪',
     },
     home: {
       // Section 1: The Problem
@@ -572,12 +586,20 @@ export const translations = {
       solutionFeature4Desc: '清楚地看到每一笔支出。对很多狗来说，家庭鲜食比优质干粮更便宜。',
       
       // Section 3: The Core Scenario
-      section3Title: '真实生活场景',
-      section3Text: '晚上。您准备家人的晚餐。同时准备狗狗的食材——肉类、蔬菜、补充剂。启动宠鲜鲜鲜食机。当您坐下来吃饭时，狗狗的一顿 35℃ 新鲜饭也准备好了。这不是复杂烹饪。这是让鲜食变简单。',
+      section3Title: '融入日常的鲜食喂养',
+      section3Text: '在给家人做晚餐的同时，让宠鲜鲜为宠物准备好一餐。放入新鲜食材，启动机器，等您坐下来吃饭时，一份温热的鲜食也刚好可以端上。',
       
       // Section 4: The Results
       section4Title: '宠物主人能实现什么',
       section4Text: '使用宠鲜鲜，家庭可以：',
+      achieve1Title: '省时省力',
+      achieve1Desc: '把每天的准备时间从 60 分钟缩短到 15 分钟。',
+      achieve2Title: '搭配有底',
+      achieve2Desc: '获得 AI 指导的份量与食谱，为您的宠物量身定制。',
+      achieve3Title: '成本可控',
+      achieve3Desc: '按预算自由选择食材与食谱。',
+      achieve4Title: '轻松坚持',
+      achieve4Desc: '让鲜食喂养成为宠物每天的日常。',
       result1: '将每天的准备时间从 60 分钟降低到 15 分钟',
       result2: '通过 AI 指导消除营养搭配的困惑',
       result3: '通过透明定价和本地食材控制成本',
@@ -646,7 +668,7 @@ export const translations = {
       recipeCookTime: '30 分钟',
 
       // Section 8: Partner CTA banner
-      section8Title: '与鲜食品类一同成长',
+      section8Title: '成为宠鲜鲜合作伙伴',
       section8Text: '零售商、分销商和诊所：与宠鲜鲜合作，为您的客户带来完整的鲜食解决方案。',
 
       // Section 9: Final CTA banner

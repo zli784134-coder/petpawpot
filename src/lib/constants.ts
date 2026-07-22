@@ -9,4 +9,9 @@ export const IMAGES = {
   aiNutritionistMockup: '/images/ai-nutritionist-mockup_4fbbf956.png',
   productLifestyle: '/images/product-lifestyle_07d89eb1.png',
   recipeChickenRice: '/images/recipe-chicken-rice_2a7ac832.png',
+  // 真实产品实拍图（2026-07 改版新增）
+  heroCooking: '/images/hero-cooking.webp',
+  realLifeScenario: '/images/real-life-scenario.webp',
+  petParentsAchieve: '/images/pet-parents-achieve.webp',
+  costIngredients: '/images/cost-ingredients.webp',
 } as const;

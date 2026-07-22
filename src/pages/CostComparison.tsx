@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'wouter';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Seo from '@/components/Seo';
-import { AI_NUTRITIONIST_URL } from '@/lib/constants';
+import { AI_NUTRITIONIST_URL, IMAGES } from '@/lib/constants';
 import { ArrowRight, Calculator, PiggyBank, Check } from 'lucide-react';
 
 // 各食谱类型的每公斤体重每日成本（美元基准，纯前端估算模型）
@@ -56,6 +56,12 @@ export default function CostComparison() {
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
             {t('costComparison.subtitle')}
           </p>
+          {/* 产品 + 真实食材辅助视觉 */}
+          <img
+            src={IMAGES.costIngredients}
+            alt="The PetPawPot Fresh Meal Maker surrounded by fresh ingredients and a prepared meal bowl"
+            className="mt-10 w-full max-w-3xl mx-auto rounded-2xl shadow-soft object-cover"
+          />
         </div>
       </section>
 

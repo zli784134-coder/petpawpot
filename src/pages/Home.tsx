@@ -3,7 +3,6 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import Seo from '@/components/Seo';
 import { AI_NUTRITIONIST_URL, IMAGES } from '@/lib/constants';
 import {
-  Leaf,
   Sparkles,
   Zap,
   Clock,
@@ -14,6 +13,8 @@ import {
   ChefHat,
   Utensils,
   ClipboardList,
+  PiggyBank,
+  Repeat,
 } from 'lucide-react';
 
 // 首页食谱卡片数据（Phase 1 走本地静态数据；食谱详情页留待 Phase 3）
@@ -29,10 +30,19 @@ const RECIPES = [
 export default function Home() {
   const { language, t } = useLanguage();
 
-  const highlights = [
-    { icon: Leaf, title: t('home.realIngredients'), desc: t('home.realIngredientsDesc'), color: 'text-success' },
-    { icon: Sparkles, title: t('home.aiMealPlanning'), desc: t('home.aiMealPlanningDesc'), color: 'text-secondary' },
-    { icon: Zap, title: t('home.oneTouchCooking'), desc: t('home.oneTouchCookingDesc'), color: 'text-primary' },
+  // 首屏三个核心卖点（pill 图标行）
+  const pills = [
+    { icon: Sparkles, label: t('hero.pill1') },
+    { icon: ClipboardList, label: t('hero.pill2') },
+    { icon: Zap, label: t('hero.pill3') },
+  ];
+
+  // “宠物主人能实现什么”四项成果（2×2 小模块）
+  const achievements = [
+    { icon: Clock, title: t('home.achieve1Title'), desc: t('home.achieve1Desc') },
+    { icon: Sparkles, title: t('home.achieve2Title'), desc: t('home.achieve2Desc') },
+    { icon: PiggyBank, title: t('home.achieve3Title'), desc: t('home.achieve3Desc') },
+    { icon: Repeat, title: t('home.achieve4Title'), desc: t('home.achieve4Desc') },
   ];
 
   const steps = [
@@ -64,8 +74,6 @@ export default function Home() {
     },
   ];
 
-  const results = [t('home.result1'), t('home.result2'), t('home.result3'), t('home.result4')];
-
   return (
     <main>
       <Seo titleKey="seo.home.title" descKey="seo.home.description" />
@@ -78,6 +86,18 @@ export default function Home() {
                 {t('hero.title')}
               </h1>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">{t('hero.subtitle')}</p>
+              {/* 三个核心卖点 pill */}
+              <div className="mt-6 flex flex-wrap gap-2.5">
+                {pills.map((p) => (
+                  <span
+                    key={p.label}
+                    className="inline-flex items-center gap-2 rounded-full border border-border bg-white px-4 py-2 text-sm font-semibold text-primary shadow-card"
+                  >
+                    <p.icon className="w-4 h-4 text-secondary" />
+                    {p.label}
+                  </span>
+                ))}
+              </div>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link
                   href="/fresh-meal-maker"
@@ -94,41 +114,16 @@ export default function Home() {
                 >
                   {t('cta.tryAiNutritionist')}
                 </a>
-                <Link
-                  href="/partners"
-                  className="inline-flex items-center gap-2 h-12 px-6 rounded-lg border border-border bg-white hover:bg-muted text-foreground font-medium transition-all"
-                >
-                  {t('cta.becomePartner')}
-                </Link>
               </div>
             </div>
             <div>
               <img
-                src={IMAGES.heroKitchen}
-                alt="Fresh Meal Maker in a modern kitchen"
+                src={IMAGES.heroCooking}
+                alt="A pet parent preparing a fresh meal with the PetPawPot Fresh Meal Maker"
                 className="w-full rounded-2xl shadow-soft object-cover"
               />
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* ===== Section 1: The Problem + highlight cards ===== */}
-      <section className="container py-16 lg:py-24">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-primary">{t('home.section1Title')}</h2>
-          <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{t('home.section1Text')}</p>
-        </div>
-        <div className="mt-12 grid md:grid-cols-3 gap-6">
-          {highlights.map((h) => (
-            <div key={h.title} className="rounded-2xl border border-border bg-white p-8 shadow-card">
-              <div className={`w-12 h-12 rounded-xl bg-muted flex items-center justify-center ${h.color}`}>
-                <h.icon className="w-6 h-6" />
-              </div>
-              <h3 className="mt-5 text-xl font-bold text-primary">{h.title}</h3>
-              <p className="mt-2 text-muted-foreground leading-relaxed">{h.desc}</p>
-            </div>
-          ))}
         </div>
       </section>
 
@@ -169,8 +164,8 @@ export default function Home() {
       <section className="container py-16 lg:py-24">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <img
-            src={IMAGES.productLifestyle}
-            alt="PetPawPot fresh feeding lifestyle"
+            src={IMAGES.realLifeScenario}
+            alt="Preparing a fresh pet meal alongside the family dinner with PetPawPot"
             className="w-full rounded-2xl shadow-soft object-cover"
           />
           <div>
@@ -205,29 +200,39 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ===== Section 4: Results ===== */}
+      {/* ===== Section 4: What Pet Parents Achieve (左图右文 2×2) ===== */}
       <section className="bg-cream">
         <div className="container py-16 lg:py-24">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl lg:text-4xl font-bold text-primary">{t('home.section4Title')}</h2>
-            <p className="mt-4 text-lg text-muted-foreground">{t('home.section4Text')}</p>
-          </div>
-          <div className="mt-10 max-w-2xl mx-auto grid gap-4">
-            {results.map((r) => (
-              <div key={r} className="flex items-start gap-3 rounded-xl bg-white border border-border p-5 shadow-card">
-                <Check className="w-5 h-5 text-success shrink-0 mt-0.5" />
-                <span className="text-foreground">{r}</span>
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <img
+              src={IMAGES.petParentsAchieve}
+              alt="Fresh meals served in bowls next to the PetPawPot Fresh Meal Maker"
+              className="w-full rounded-2xl shadow-soft object-cover"
+            />
+            <div>
+              <h2 className="text-3xl lg:text-4xl font-bold text-primary">{t('home.section4Title')}</h2>
+              <p className="mt-4 text-lg text-muted-foreground">{t('home.section4Text')}</p>
+              <div className="mt-8 grid sm:grid-cols-2 gap-5">
+                {achievements.map((a) => (
+                  <div key={a.title} className="rounded-2xl bg-white border border-border p-6 shadow-card">
+                    <div className="w-10 h-10 rounded-xl bg-muted flex items-center justify-center text-secondary">
+                      <a.icon className="w-5 h-5" />
+                    </div>
+                    <h3 className="mt-4 text-lg font-bold text-primary">{a.title}</h3>
+                    <p className="mt-1 text-sm text-muted-foreground leading-relaxed">{a.desc}</p>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-          <div className="mt-10 text-center">
-            <Link
-              href="/cost-comparison"
-              className="inline-flex items-center gap-2 h-12 px-8 rounded-lg bg-primary hover:bg-primary/90 text-white font-semibold transition-all shadow-soft"
-            >
-              {t('cta.compareCosts')}
-              <ArrowRight className="w-4 h-4" />
-            </Link>
+              <div className="mt-8">
+                <Link
+                  href="/cost-comparison"
+                  className="inline-flex items-center gap-2 h-12 px-8 rounded-lg bg-primary hover:bg-primary/90 text-white font-semibold transition-all shadow-soft"
+                >
+                  {t('cta.compareCosts')}
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>
