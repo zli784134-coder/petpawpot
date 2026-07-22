@@ -14,4 +14,13 @@ export const IMAGES = {
   realLifeScenario: '/images/real-life-scenario.webp',
   petParentsAchieve: '/images/pet-parents-achieve.webp',
   costIngredients: '/images/cost-ingredients.webp',
+  // 真实产品实拍图（2026-07 二期：各内页替换老占位图）
+  productHero: '/images/product-hero.webp', // 干净产品主视觉
+  productDailyUse: '/images/product-daily-use.webp', // 日常使用/犬互动
+  productOneTouch: '/images/product-one-touch.webp', // 一键烹饪信息图
+  nutritionDogFeeding: '/images/nutrition-dog-feeding.webp', // 主人喂狗（营养师页，仅犬）
+  freshIngredients: '/images/fresh-ingredients.webp', // 真实食材平铺
+  freshFamilyFeeding: '/images/fresh-family-feeding.webp', // 家庭多宠喂食
+  partnersProduct: '/images/partners-product.webp', // B2B 干净产品
+  aboutFamilyKitchen: '/images/about-family-kitchen.webp', // 品牌家庭厨房场景
 } as const;

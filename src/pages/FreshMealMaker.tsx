@@ -87,7 +87,7 @@ export default function FreshMealMaker() {
             </div>
             <div>
               <img
-                src={IMAGES.heroKitchen}
+                src={IMAGES.productHero}
                 alt={t('freshMealMaker.title')}
                 className="w-full rounded-2xl shadow-soft object-cover"
               />
@@ -159,7 +159,7 @@ export default function FreshMealMaker() {
         <div className="container py-16 lg:py-24">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <img
-              src={IMAGES.productLifestyle}
+              src={IMAGES.productDailyUse}
               alt={t('freshMealMaker.lifestyleTitle')}
               className="w-full rounded-2xl shadow-soft object-cover"
             />
@@ -184,13 +184,20 @@ export default function FreshMealMaker() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-primary">{t('freshMealMaker.productDetails')}</h2>
         </div>
-        <div className="mt-12 grid gap-4 max-w-3xl mx-auto">
-          {features.map((f) => (
-            <div key={f} className="flex items-start gap-3 rounded-xl bg-white border border-border p-5 shadow-card">
-              <ShieldCheck className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-              <span className="text-foreground leading-relaxed">{f}</span>
-            </div>
-          ))}
+        <div className="mt-12 grid lg:grid-cols-2 gap-12 items-center">
+          <img
+            src={IMAGES.productOneTouch}
+            alt={t('freshMealMaker.productDetails')}
+            className="w-full rounded-2xl shadow-soft object-cover"
+          />
+          <div className="grid gap-4">
+            {features.map((f) => (
+              <div key={f} className="flex items-start gap-3 rounded-xl bg-white border border-border p-5 shadow-card">
+                <ShieldCheck className="w-5 h-5 text-primary shrink-0 mt-0.5" />
+                <span className="text-foreground leading-relaxed">{f}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

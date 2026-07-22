@@ -55,7 +55,7 @@ export default function AboutUs() {
         <div className="container py-16 lg:py-24">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <img
-              src={IMAGES.heroKitchen}
+              src={IMAGES.aboutFamilyKitchen}
               alt={t('aboutUs.whyWeStarted')}
               className="w-full rounded-2xl shadow-soft object-cover"
             />

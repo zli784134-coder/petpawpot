@@ -61,7 +61,7 @@ export default function AiNutritionist() {
             </div>
             <div>
               <img
-                src={IMAGES.aiNutritionistMockup}
+                src={IMAGES.nutritionDogFeeding}
                 alt={t('aiNutritionist.title')}
                 className="w-full max-w-sm mx-auto rounded-2xl shadow-soft object-cover"
               />

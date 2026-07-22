@@ -50,7 +50,7 @@ export default function WhyFreshFeeding() {
       <section className="container py-16 lg:py-24">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <img
-            src={IMAGES.productLifestyle}
+            src={IMAGES.freshIngredients}
             alt={t('whyFreshFeeding.shiftTitle')}
             className="w-full rounded-2xl shadow-soft object-cover"
           />
@@ -105,6 +105,17 @@ export default function WhyFreshFeeding() {
               ))}
             </ul>
           </div>
+        </div>
+      </section>
+
+      {/* ===== Lifestyle band ===== */}
+      <section className="bg-cream">
+        <div className="container py-10 lg:py-14">
+          <img
+            src={IMAGES.freshFamilyFeeding}
+            alt={t('whyFreshFeeding.subtitle')}
+            className="w-full max-h-[420px] rounded-2xl shadow-soft object-cover"
+          />
         </div>
       </section>
 

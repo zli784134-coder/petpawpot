@@ -2,7 +2,7 @@
   {
     "slug": "chicken-rice-carrot-daily",
     "category": "dailyMeals",
-    "image": "/images/recipe-chicken-rice_2a7ac832.png",
+    "image": "/images/recipe-chicken-rice.webp",
     "name": { "en": "Chicken, Rice & Carrot Daily Meal", "zh": "鸡肉米饭胡萝卜日常餐" },
     "summary": {
       "en": "A balanced everyday meal built on lean chicken, easy-to-digest rice, and beta-carotene-rich carrots. A reliable staple for healthy adult dogs.",
@@ -32,7 +32,7 @@
   {
     "slug": "salmon-pumpkin-broccoli-fresh",
     "category": "dailyMeals",
-    "image": "/images/recipe-chicken-rice_2a7ac832.png",
+    "image": "/images/recipe-salmon-pumpkin.webp",
     "name": { "en": "Salmon, Pumpkin & Broccoli Fresh Meal", "zh": "三文鱼南瓜西兰花鲜食餐" },
     "summary": {
       "en": "Omega-rich salmon paired with fiber-dense pumpkin and antioxidant broccoli — ideal for dogs needing skin, coat, and digestive support.",
@@ -62,7 +62,7 @@
   {
     "slug": "egg-rice-vegetable-simple",
     "category": "budgetFriendly",
-    "image": "/images/recipe-chicken-rice_2a7ac832.png",
+    "image": "/images/recipe-egg-veg.webp",
     "name": { "en": "Egg, Rice & Vegetable Simple Meal", "zh": "鸡蛋米饭蔬菜简易餐" },
     "summary": {
       "en": "A budget-friendly, protein-complete meal using affordable eggs and pantry staples. Perfect for first-time fresh feeders on a tight budget.",
@@ -92,7 +92,7 @@
   {
     "slug": "beef-sweet-potato-high-protein",
     "category": "healthyWeight",
-    "image": "/images/recipe-chicken-rice_2a7ac832.png",
+    "image": "/images/recipe-beef-sweet-potato.webp",
     "name": { "en": "Beef & Sweet Potato High-Protein Meal", "zh": "牛肉红薯高蛋白餐" },
     "summary": {
       "en": "A high-protein, nutrient-dense meal for active dogs and healthy-weight goals. Lean beef with slow-release sweet potato carbs.",
@@ -122,7 +122,7 @@
   {
     "slug": "low-cost-chicken-thigh-fresh",
     "category": "budgetFriendly",
-    "image": "/images/recipe-chicken-rice_2a7ac832.png",
+    "image": "/images/recipe-chicken-thigh.webp",
     "name": { "en": "Low-Cost Chicken Thigh Fresh Meal", "zh": "经济鸡腿肉鲜食餐" },
     "summary": {
       "en": "Juicy, affordable chicken thigh delivers rich flavor and energy at a lower price than breast — a wallet-friendly fresh feeding option.",
@@ -152,7 +152,7 @@
   {
     "slug": "senior-dog-soft-fresh",
     "category": "seniorMeals",
-    "image": "/images/recipe-chicken-rice_2a7ac832.png",
+    "image": "/images/recipe-senior-soft.webp",
     "name": { "en": "Senior Dog Soft Fresh Meal", "zh": "老年犬软质鲜食餐" },
     "summary": {
       "en": "A soft, easy-to-chew meal formulated for senior dogs with sensitive teeth and slower digestion. Gentle ingredients, joint-supporting nutrients.",
