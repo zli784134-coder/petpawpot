@@ -211,7 +211,7 @@ export const translations = {
       feature2: 'Recipe Integration: Works seamlessly with PetPawPot AI Nutritionist',
       feature3: 'Easy Cleanup: Dishwasher-safe components',
       feature4: 'Compact Design: Fits modern kitchens',
-      feature5: 'Safety Certified: Food-grade materials, multiple safety checks',
+      feature5: 'Safety-Focused: Food-grade materials, multiple built-in safety protections',
       
       // FAQ
       faq: 'Frequently Asked Questions',
@@ -506,11 +506,11 @@ export const translations = {
       },
       aiNutritionist: {
         title: 'AI Nutritionist — Balanced Meal Plans for Dogs | PetPawPot',
-        description: 'The PetPawPot AI Nutritionist builds vet-informed, balanced fresh meal plans tailored to your dog, checking the nutrition math for you.',
+        description: 'The PetPawPot AI Nutritionist builds balanced fresh meal plans tailored to your dog, checked against AAFCO nutrient profiles item by item.',
       },
       recipes: {
-        title: 'Fresh Dog Recipes — Vet-Reviewed Meals | PetPawPot',
-        description: 'Browse vet-reviewed fresh dog food recipes with ingredients, nutrition highlights, and step-by-step prep for the Fresh Meal Maker.',
+        title: 'Fresh Dog Recipes — Nutrition-Checked Meals | PetPawPot',
+        description: 'Browse fresh dog food recipes checked against AAFCO nutrient profiles, with ingredients, nutrition highlights, and step-by-step prep for the Fresh Meal Maker.',
       },
       costComparison: {
         title: 'Cost Comparison — Fresh vs Kibble vs Subscription | PetPawPot',
@@ -526,7 +526,7 @@ export const translations = {
       },
       aboutUs: {
         title: 'About Us — Our Mission | PetPawPot',
-        description: 'PetPawPot builds tools that make fresh feeding sustainable: a Fresh Meal Maker, an AI Nutritionist, and vet-reviewed recipes.',
+        description: 'PetPawPot builds tools that make fresh feeding sustainable: a Fresh Meal Maker, an AI Nutritionist, and nutrition-checked recipes.',
       },
       blog: {
         title: 'Blog — Fresh Feeding & Nutrition Guides | PetPawPot',
@@ -751,7 +751,7 @@ export const translations = {
       feature2: '食谱集成：与宠鲜鲜 AI 营养师无缝配合',
       feature3: '易于清洁：洗碗机安全组件',
       feature4: '紧凑设计：适合现代厨房',
-      feature5: '安全认证：食品级材料，多重安全检查',
+      feature5: '安全设计：食品级材料，多重内置安全保护',
       
       // FAQ
       faq: '常见问题',
@@ -1046,11 +1046,11 @@ export const translations = {
       },
       aiNutritionist: {
         title: 'AI 营养师 — 狗狗均衡膳食方案 | 宠鲜鲜',
-        description: '宠鲜鲜 AI 营养师为你的狗狗定制兽医参考、营养均衡的鲜食方案，替你核查营养搭配。',
+        description: '宠鲜鲜 AI 营养师为你的狗狗定制营养均衡的鲜食方案，逐项对照 AAFCO 营养谱核验。',
       },
       recipes: {
-        title: '狗狗鲜食食谱 — 兽医审核餐单 | 宠鲜鲜',
-        description: '浏览经兽医审核的狗狗鲜食食谱，含食材、营养亮点和鲜食机分步做法。',
+        title: '狗狗鲜食食谱 — 营养核验餐单 | 宠鲜鲜',
+        description: '浏览对照 AAFCO 营养谱核验的狗狗鲜食食谱，含食材、营养亮点和鲜食机分步做法。',
       },
       costComparison: {
         title: '成本对比 — 鲜食 vs 干粮 vs 订阅 | 宠鲜鲜',
@@ -1066,7 +1066,7 @@ export const translations = {
       },
       aboutUs: {
         title: '关于我们 — 我们的使命 | 宠鲜鲜',
-        description: '宠鲜鲜打造让鲜食喂养可持续的工具：鲜食机、AI 营养师和经兽医审核的食谱。',
+        description: '宠鲜鲜打造让鲜食喂养可持续的工具：鲜食机、AI 营养师和经营养核验的食谱。',
       },
       blog: {
         title: '博客 — 鲜食与营养指南 | 宠鲜鲜',

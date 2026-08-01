@@ -27,7 +27,7 @@
         ] },
         { "type": "quote", "text": "Fresh feeding fails not because it is wrong, but because it is hard to sustain. The goal is a system you can keep." },
         { "type": "h2", "text": "How to start without burning out" },
-        { "type": "p", "text": "Begin by replacing one meal a day. Use a small set of vet-reviewed recipes rather than improvising. Portion and batch-cook a few days at a time. A Fresh Meal Maker automates the cooking step, and an AI Nutritionist handles the balancing math, so the routine survives past the first enthusiastic week." }
+        { "type": "p", "text": "Begin by replacing one meal a day. Use a small set of nutrition-checked recipes rather than improvising. Portion and batch-cook a few days at a time. A Fresh Meal Maker automates the cooking step, and an AI Nutritionist handles the balancing math, so the routine survives past the first enthusiastic week." }
       ],
       "zh": [
         { "type": "p", "text": "\"鲜食喂养\"这个词在宠物论坛里被用得很随意，但它的核心只有一件事：给狗狗吃真实、可辨认、只经过最少加工的食材。不是在极高温下做出的常温干粮，而是用完整的蛋白质、蔬菜和健康脂肪，用足够温和的方式烹饪，以保留营养。" },
@@ -41,7 +41,7 @@
         ] },
         { "type": "quote", "text": "鲜食失败不是因为它错了，而是因为它难以坚持。目标是一套你能一直用下去的系统。" },
         { "type": "h2", "text": "如何开始又不半途而废" },
-        { "type": "p", "text": "从每天替换一餐开始。使用少量经兽医审核的食谱，而不是即兴发挥。一次备好几天的分量。鲜食机把烹饪这一步自动化，AI 营养师负责搭配的计算，这样这套习惯才能撑过最初那个充满热情的星期。" }
+        { "type": "p", "text": "从每天替换一餐开始。使用少量经营养核验的食谱，而不是即兴发挥。一次备好几天的分量。鲜食机把烹饪这一步自动化，AI 营养师负责搭配的计算，这样这套习惯才能撑过最初那个充满热情的星期。" }
       ]
     }
   },
@@ -179,7 +179,7 @@
         ] },
         { "type": "quote", "text": "We are not asking people to love cooking. We are removing the reasons fresh feeding falls apart." },
         { "type": "h2", "text": "Where we are now" },
-        { "type": "p", "text": "The Fresh Meal Maker, the AI Nutritionist, and a growing library of vet-reviewed recipes are all built around a single belief: fresh feeding should be sustainable, not heroic. That is the whole point of PetPawPot, and it is why every recipe and feature comes back to the same question, can a busy person actually keep doing this?" }
+        { "type": "p", "text": "The Fresh Meal Maker, the AI Nutritionist, and a growing library of nutrition-checked recipes are all built around a single belief: fresh feeding should be sustainable, not heroic. That is the whole point of PetPawPot, and it is why every recipe and feature comes back to the same question, can a busy person actually keep doing this?" }
       ],
       "zh": [
         { "type": "p", "text": "宠鲜鲜的起点不是一个硬件创意，而是清晨 7 点的厨房台前——一只狗满怀期待地抬头看着你，而你意识到自己又一次没时间做鲜食了。" },
@@ -193,7 +193,7 @@
         ] },
         { "type": "quote", "text": "我们不是要人们爱上做饭，而是移除让鲜食半途而废的那些原因。" },
         { "type": "h2", "text": "我们现在走到了哪里" },
-        { "type": "p", "text": "鲜食机、AI 营养师，以及不断扩充的经兽医审核食谱库，都围绕同一个信念构建：鲜食应该是可持续的，而不是英雄主义的。这就是宠鲜鲜的全部意义，也是为什么每一个食谱和功能都回到同一个问题——一个忙碌的人，真的能一直做下去吗？" }
+        { "type": "p", "text": "鲜食机、AI 营养师，以及不断扩充的经营养核验食谱库，都围绕同一个信念构建：鲜食应该是可持续的，而不是英雄主义的。这就是宠鲜鲜的全部意义，也是为什么每一个食谱和功能都回到同一个问题——一个忙碌的人，真的能一直做下去吗？" }
       ]
     }
   }
