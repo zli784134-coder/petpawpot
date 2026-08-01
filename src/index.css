@@ -6,39 +6,39 @@
 
 @layer base {
   :root {
-    /* 设计 token（来自 COLOR_DESIGN_STRATEGY.md / BUILD-SPEC.md），以 HSL 通道存储 */
-    --background: 0 0% 100%;
-    --foreground: 210 29% 24%; /* #2C3E50 */
+    /* 设计 token — 2026-08 改版:对齐新设计稿(森林绿+米白,同品牌手册色系) */
+    --background: 40 45% 94%; /* 米白 #F7F3EA(整页底色,设计稿口径) */
+    --foreground: 150 15% 17%; /* 深绿石墨 #24312A */
 
-    --card: 0 0% 100%;
-    --card-foreground: 210 29% 24%;
+    --card: 0 0% 100%; /* 卡片纯白浮在米白上 */
+    --card-foreground: 150 15% 17%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 29% 24%;
+    --popover-foreground: 150 15% 17%;
 
-    --primary: 207 45% 22%; /* 深灰蓝 #1F3A52 */
+    --primary: 138 29% 25%; /* 森林绿 #2E5339(标题/主按钮) */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 24 100% 63%; /* 活力橙 #FF8C42 */
+    --secondary: 24 73% 55%; /* 陶土橙 #E07B39(关键转化CTA点缀,少用) */
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 42 39% 94%; /* 暖米白 #F5F1E8 */
-    --muted-foreground: 184 6% 53%; /* #7F8C8D */
+    --muted: 40 33% 96%; /* 更浅米白(分区底) */
+    --muted-foreground: 150 8% 42%; /* 灰绿正文辅助 */
 
-    --accent: 42 39% 94%; /* 暖米白 */
-    --accent-foreground: 207 45% 22%;
+    --accent: 100 27% 91%; /* 浅鼠尾草绿 #E7EFE3(图标圆底/chip) */
+    --accent-foreground: 138 29% 25%;
 
-    --success: 145 63% 49%; /* 健康绿 #2ECC71 */
+    --success: 138 29% 35%; /* 达标绿(与森林绿同族) */
     --success-foreground: 0 0% 100%;
 
-    --cream: 42 39% 94%; /* 暖米白 #F5F1E8 */
+    --cream: 40 45% 94%; /* 米白 #F7F3EA */
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 192 15% 93%; /* #ECF0F1 */
-    --input: 192 15% 93%;
-    --ring: 207 45% 22%;
+    --border: 40 20% 88%; /* 暖灰边线 */
+    --input: 40 20% 88%;
+    --ring: 138 29% 25%;
 
     --radius: 0.75rem;
   }
