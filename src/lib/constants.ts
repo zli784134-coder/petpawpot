@@ -23,4 +23,25 @@ export const IMAGES = {
   freshFamilyFeeding: '/images/fresh-family-feeding.webp', // 家庭多宠喂食
   partnersProduct: '/images/partners-product.webp', // B2B 干净产品
   aboutFamilyKitchen: '/images/about-family-kitchen.webp', // 品牌家庭厨房场景
+  // 2026-08 B2B 网站图片包(设计稿同源摄影;VeraBowl 带标截图与虚构App/补剂盒按方案A弃用)
+  b2b: {
+    hero: '/images/b2b/hero-machine-pets.webp', // 机器+金毛+布偶 厨房主视觉
+    thenKibble: '/images/b2b/then-kibble.webp',
+    nowFresh: '/images/b2b/now-fresh-machine.webp',
+    whyFamily: '/images/b2b/why-pets-family.webp',
+    whyIngredients: '/images/b2b/why-real-ingredients.webp',
+    whySmart: '/images/b2b/why-smart-nutrition.webp',
+    whyHealth: '/images/b2b/why-longterm-health.webp',
+    painIntro: '/images/b2b/pain-intro-prep.webp',
+    painTime: '/images/b2b/pain-time-effort.webp',
+    painComplex: '/images/b2b/pain-nutrition-complex.webp',
+    painTemp: '/images/b2b/pain-temperature.webp',
+    painStorage: '/images/b2b/pain-storage.webp',
+    painSustain: '/images/b2b/pain-sustain.webp',
+    solutionTopdown: '/images/b2b/solution-machine-topdown.webp', // 机器俯视+食材
+    costKibble: '/images/b2b/cost-kibble.webp',
+    costSubscription: '/images/b2b/cost-subscription.webp',
+    costPetPawPot: '/images/b2b/cost-petpawpot.webp',
+    b2bMachine: '/images/b2b/b2b-machine-clean.webp',
+  },
 } as const;

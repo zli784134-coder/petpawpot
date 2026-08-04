@@ -49,19 +49,19 @@ export default function Home() {
     t('home.marketNowItem4'),
   ];
   const whyFresh = [
-    { icon: Heart, title: t('home.whyFresh1Title'), desc: t('home.whyFresh1Desc') },
-    { icon: Salad, title: t('home.whyFresh2Title'), desc: t('home.whyFresh2Desc') },
-    { icon: Brain, title: t('home.whyFresh3Title'), desc: t('home.whyFresh3Desc') },
-    { icon: TrendingUp, title: t('home.whyFresh4Title'), desc: t('home.whyFresh4Desc') },
+    { icon: Heart, img: IMAGES.b2b.whyFamily, title: t('home.whyFresh1Title'), desc: t('home.whyFresh1Desc') },
+    { icon: Salad, img: IMAGES.b2b.whyIngredients, title: t('home.whyFresh2Title'), desc: t('home.whyFresh2Desc') },
+    { icon: Brain, img: IMAGES.b2b.whySmart, title: t('home.whyFresh3Title'), desc: t('home.whyFresh3Desc') },
+    { icon: TrendingUp, img: IMAGES.b2b.whyHealth, title: t('home.whyFresh4Title'), desc: t('home.whyFresh4Desc') },
   ];
 
   // ===== Section 3: 五个执行痛点 =====
   const pains = [
-    { icon: Clock, title: t('home.pain1Title'), desc: t('home.pain1Desc') },
-    { icon: Scale, title: t('home.pain2Title'), desc: t('home.pain2Desc') },
-    { icon: Thermometer, title: t('home.pain3Title'), desc: t('home.pain3Desc') },
-    { icon: Refrigerator, title: t('home.pain4Title'), desc: t('home.pain4Desc') },
-    { icon: Repeat, title: t('home.pain5Title'), desc: t('home.pain5Desc') },
+    { icon: Clock, img: IMAGES.b2b.painTime, title: t('home.pain1Title'), desc: t('home.pain1Desc') },
+    { icon: Scale, img: IMAGES.b2b.painComplex, title: t('home.pain2Title'), desc: t('home.pain2Desc') },
+    { icon: Thermometer, img: IMAGES.b2b.painTemp, title: t('home.pain3Title'), desc: t('home.pain3Desc') },
+    { icon: Refrigerator, img: IMAGES.b2b.painStorage, title: t('home.pain4Title'), desc: t('home.pain4Desc') },
+    { icon: Repeat, img: IMAGES.b2b.painSustain, title: t('home.pain5Title'), desc: t('home.pain5Desc') },
   ];
   const solves = [
     t('home.solve1'),
@@ -90,18 +90,21 @@ export default function Home() {
     {
       title: t('home.biz1Title'),
       desc: t('home.biz1Desc'),
+      img: IMAGES.b2b.costKibble,
       features: [t('home.biz1Feature1'), t('home.biz1Feature2')],
       highlighted: false,
     },
     {
       title: t('home.biz2Title'),
       desc: t('home.biz2Desc'),
+      img: IMAGES.b2b.costSubscription,
       features: [t('home.biz2Feature1'), t('home.biz2Feature2')],
       highlighted: false,
     },
     {
       title: t('home.biz3Title'),
       desc: t('home.biz3Desc'),
+      img: IMAGES.b2b.costPetPawPot,
       features: [t('home.biz3Feature1'), t('home.biz3Feature2'), t('home.biz3Feature3')],
       highlighted: true,
     },
@@ -174,8 +177,8 @@ export default function Home() {
             </div>
             <div className="relative">
               <img
-                src={IMAGES.heroCooking}
-                alt="The PetPawPot smart fresh meal maker preparing a fresh pet meal"
+                src={IMAGES.b2b.hero}
+                alt="The PetPawPot smart fresh meal maker in a kitchen with a golden retriever and a ragdoll cat"
                 className="w-full rounded-2xl shadow-soft object-cover"
               />
               {/* 营养师系统支持卡：宠物信息示例 → 营养建议 */}
@@ -248,12 +251,15 @@ export default function Home() {
         </div>
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {whyFresh.map((w) => (
-            <div key={w.title} className="rounded-2xl bg-white border border-border p-6 shadow-card">
-              <div className="w-10 h-10 rounded-xl bg-muted flex items-center justify-center text-secondary">
-                <w.icon className="w-5 h-5" />
+            <div key={w.title} className="rounded-2xl bg-white border border-border overflow-hidden shadow-card">
+              <img src={w.img} alt="" className="w-full aspect-[4/3] object-cover" loading="lazy" />
+              <div className="p-6">
+                <div className="w-10 h-10 rounded-xl bg-accent flex items-center justify-center text-primary">
+                  <w.icon className="w-5 h-5" />
+                </div>
+                <h4 className="mt-4 text-lg font-bold text-primary">{w.title}</h4>
+                <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{w.desc}</p>
               </div>
-              <h4 className="mt-4 text-lg font-bold text-primary">{w.title}</h4>
-              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{w.desc}</p>
             </div>
           ))}
         </div>
@@ -264,8 +270,8 @@ export default function Home() {
         <div className="container py-16 lg:py-24">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <img
-              src={IMAGES.realLifeScenario}
-              alt="A pet parent preparing a fresh pet meal in a home kitchen"
+              src={IMAGES.b2b.painIntro}
+              alt="A pet parent prepping fresh ingredients while her dog watches"
               className="w-full rounded-2xl shadow-soft object-cover"
             />
             <div>
@@ -275,12 +281,15 @@ export default function Home() {
           </div>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
             {pains.map((p) => (
-              <div key={p.title} className="rounded-2xl bg-white border border-border p-6 shadow-card">
-                <div className="w-10 h-10 rounded-xl bg-muted flex items-center justify-center text-secondary">
-                  <p.icon className="w-5 h-5" />
+              <div key={p.title} className="rounded-2xl bg-white border border-border overflow-hidden shadow-card">
+                <img src={p.img} alt="" className="w-full aspect-[4/3] object-cover" loading="lazy" />
+                <div className="p-5">
+                  <div className="w-10 h-10 rounded-xl bg-accent flex items-center justify-center text-primary">
+                    <p.icon className="w-5 h-5" />
+                  </div>
+                  <h3 className="mt-3 text-base font-bold text-primary">{p.title}</h3>
+                  <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{p.desc}</p>
                 </div>
-                <h3 className="mt-4 text-base font-bold text-primary">{p.title}</h3>
-                <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{p.desc}</p>
               </div>
             ))}
           </div>
@@ -330,8 +339,8 @@ export default function Home() {
         {/* 四个能力点 + 产品图 */}
         <div className="mt-16 grid lg:grid-cols-2 gap-12 items-center">
           <img
-            src={IMAGES.productHero}
-            alt="The PetPawPot smart fresh meal maker"
+            src={IMAGES.b2b.solutionTopdown}
+            alt="Top-down view of the PetPawPot fresh meal maker loaded with real ingredients"
             className="w-full rounded-2xl shadow-soft object-cover"
           />
           <div>
@@ -390,10 +399,12 @@ export default function Home() {
             {feedingOptions.map((o) => (
               <div
                 key={o.title}
-                className={`rounded-2xl p-8 border shadow-card ${
+                className={`rounded-2xl overflow-hidden border shadow-card ${
                   o.highlighted ? 'border-secondary bg-secondary/5 ring-1 ring-secondary/30' : 'border-border bg-white'
                 }`}
               >
+                <img src={o.img} alt="" className="w-full aspect-[4/3] object-cover" loading="lazy" />
+                <div className="p-8 pt-6">
                 <h3 className="text-xl font-bold text-primary">{o.title}</h3>
                 <p className="mt-2 text-muted-foreground leading-relaxed">{o.desc}</p>
                 <ul className="mt-5 space-y-2.5">
@@ -406,6 +417,7 @@ export default function Home() {
                     </li>
                   ))}
                 </ul>
+                </div>
               </div>
             ))}
           </div>
@@ -434,7 +446,7 @@ export default function Home() {
             </div>
           </div>
           <img
-            src={IMAGES.partnersProduct}
+            src={IMAGES.b2b.b2bMachine}
             alt="The PetPawPot smart fresh meal maker for retail and distribution partners"
             className="w-full rounded-2xl shadow-soft object-cover"
           />
