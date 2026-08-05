@@ -185,12 +185,12 @@ export const translations = {
       solutionText: 'Three simple steps:',
       step1: 'Prepare ingredients (chicken, rice, vegetables, supplements)',
       step2: 'Add to Fresh Meal Maker and select recipe',
-      step3: 'A fresh meal cooks hands-free — programs run 45 min to 2.5 h',
+      step3: 'The machine runs unattended — 45 min+ by program, for different fresh-food textures',
       
       // Key Benefits
       keyBenefits: 'Key Benefits',
       benefit1: 'Time Savings',
-      benefit1Desc: 'About 15 minutes hands-on — weigh, load, press start. The machine then runs unattended (45 min–2.5 h by program).',
+      benefit1Desc: 'About 5 minutes hands-on — weigh, load, press start. The machine then runs unattended (45 min+ depending on program), turning out fresh food in different textures.',
       benefit2: 'Temperature Control',
       benefit2Desc: 'Staged temperature program — a gentle low-temp phase, then a full cook-through, evenly and without scorching.',
       benefit3: 'Portion Accuracy',
@@ -376,7 +376,7 @@ export const translations = {
       barrier4: 'Consistency: Hard to maintain long-term',
       
       solutionsTitle: 'How PetPawPot Addresses Each',
-      solution1: 'One-touch cooking: ~15 minutes hands-on, the machine does the rest',
+      solution1: 'One-touch cooking: about 5 minutes hands-on, the machine does the rest',
       solution2: 'AI Nutritionist provides personalized guidance',
       solution3: 'Cost transparency shows fresh feeding can be affordable',
       solution4: 'Simple integration into daily routine makes it sustainable',
@@ -734,12 +734,12 @@ export const translations = {
       solutionText: '三个简单步骤：',
       step1: '准备食材（鸡肉、米饭、蔬菜、补充剂）',
       step2: '加入鲜食机并选择食谱',
-      step3: '新鲜一餐全自动完成——程序运行 45 分钟至 2.5 小时',
+      step3: '机器无人值守运行——按程序 45 分钟起,做出不同状态的鲜食',
       
       // Key Benefits
       keyBenefits: '核心优势',
       benefit1: '节省时间',
-      benefit1Desc: '亲手操作约 15 分钟——称料、投料、启动即可;此后机器自动运行(按程序 45 分钟至 2.5 小时),无需看管。',
+      benefit1Desc: '实际操作约 5 分钟——称重、装载、按下启动即可;之后机器无人值守运行(按程序 45 分钟起),做出不同状态的鲜食。',
       benefit2: '温度控制',
       benefit2Desc: '程序化分段控温——先低温慢热、再升温煮透,受热均匀不糊锅。',
       benefit3: '份量精确',
@@ -925,7 +925,7 @@ export const translations = {
       barrier4: '坚持：长期维持困难',
       
       solutionsTitle: '宠鲜鲜如何解决每一个',
-      solution1: '一键烹饪:亲手操作约 15 分钟,其余交给机器',
+      solution1: '一键烹饪:实际操作约 5 分钟,其余交给机器',
       solution2: 'AI 营养师提供个性化指导',
       solution3: '成本透明显示鲜食可以经济',
       solution4: '简单集成到日常生活中使其可持续',
