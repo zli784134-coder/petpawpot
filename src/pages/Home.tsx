@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { Link } from 'wouter';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Seo from '@/components/Seo';
@@ -37,8 +38,22 @@ import {
 // B2B 漏斗:营养评估外链统一带 utm 来源标记
 const NUTRITION_ASSESSMENT_URL = `${AI_NUTRITIONIST_URL}?utm_source=petpawpot-b2b`;
 
+// Hero 轮播图组(横幅构图,机器+真实食材/宠物)
+const HERO_IMAGES = [
+  IMAGES.b2b.hero,
+  IMAGES.b2b.productHeroIngredients,
+  IMAGES.b2b.bannerMachineKitchen,
+];
+
 export default function Home() {
   const { t } = useLanguage();
+
+  // Hero 多图轮动:4.5s 淡切,点击圆点可手动切换
+  const [heroIdx, setHeroIdx] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => setHeroIdx((i) => (i + 1) % HERO_IMAGES.length), 4500);
+    return () => clearInterval(id);
+  }, []);
 
   // ===== Section 2: 过去 vs 现在 =====
   const pastItems = [t('home.marketPastItem1'), t('home.marketPastItem2'), t('home.marketPastItem3')];
@@ -174,15 +189,8 @@ export default function Home() {
                   {t('home.heroCta3')}
                 </a>
               </div>
-            </div>
-            <div className="relative">
-              <img
-                src={IMAGES.b2b.hero}
-                alt="The PetPawPot smart fresh meal maker in a kitchen with a golden retriever and a ragdoll cat"
-                className="w-full rounded-2xl shadow-soft object-cover"
-              />
-              {/* 营养师系统支持卡：宠物信息示例 → 营养建议 */}
-              <div className="mt-6 lg:mt-0 lg:absolute lg:-bottom-8 lg:-left-8 lg:max-w-sm rounded-2xl bg-white border border-border p-5 shadow-soft">
+              {/* 营养师系统支持卡:移到左栏 CTA 下方,不再遮挡主图 */}
+              <div className="mt-8 max-w-md rounded-2xl bg-white border border-border p-5 shadow-soft">
                 <div className="flex items-center justify-between gap-2">
                   <span className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-secondary">
                     <Brain className="w-4 h-4" />
@@ -204,6 +212,33 @@ export default function Home() {
                   <BadgeCheck className="w-4 h-4 text-success shrink-0" />
                   {t('home.heroCardCheck')}
                 </p>
+              </div>
+            </div>
+            {/* 主图多图轮动(淡入淡出),不再被卡片遮挡 */}
+            <div className="relative aspect-[16/11] rounded-2xl overflow-hidden shadow-soft">
+              {HERO_IMAGES.map((src, i) => (
+                <img
+                  key={src}
+                  src={src}
+                  alt="PetPawPot smart fresh meal maker"
+                  className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+                    i === heroIdx ? 'opacity-100' : 'opacity-0'
+                  }`}
+                  loading={i === 0 ? 'eager' : 'lazy'}
+                />
+              ))}
+              <div className="absolute bottom-3 left-0 right-0 flex justify-center gap-2">
+                {HERO_IMAGES.map((_, i) => (
+                  <button
+                    key={i}
+                    type="button"
+                    aria-label={`Slide ${i + 1}`}
+                    onClick={() => setHeroIdx(i)}
+                    className={`w-2 h-2 rounded-full transition-all ${
+                      i === heroIdx ? 'bg-white w-5' : 'bg-white/50'
+                    }`}
+                  />
+                ))}
               </div>
             </div>
           </div>
