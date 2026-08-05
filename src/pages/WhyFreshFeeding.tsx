@@ -114,7 +114,7 @@ export default function WhyFreshFeeding() {
           <img
             src={IMAGES.freshFamilyFeeding}
             alt={t('whyFreshFeeding.subtitle')}
-            className="w-full max-h-[420px] rounded-2xl shadow-soft object-cover"
+            className="w-full h-auto rounded-2xl shadow-soft"
           />
         </div>
       </section>

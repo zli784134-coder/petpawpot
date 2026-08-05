@@ -51,5 +51,7 @@ export const IMAGES = {
     detailStirring: '/images/b2b/detail-stirring.webp', // 自动搅拌
     detailNonstick: '/images/b2b/detail-nonstick.webp', // 不粘内胆
     detailDishwasher: '/images/b2b/detail-dishwasher.webp', // 内胆可进洗碗机
+    bannerMachineKitchen: '/images/b2b/banner-machine-kitchen.webp', // 厨房横幅(机器+食材,带logo)
+    cleaningDishwasherLg: '/images/b2b/cleaning-dishwasher-lg.webp', // 清洁区大图(内胆进洗碗机)
   },
 } as const;

@@ -215,6 +215,34 @@ export default function FreshMealMaker() {
         </div>
       </section>
 
+      {/* ===== Easy Cleaning(清洁独立展示区)===== */}
+      <section className="bg-cream">
+        <div className="container py-16 lg:py-24">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <img
+              src={IMAGES.b2b.cleaningDishwasherLg}
+              alt={t('freshMealMaker.cleanTitle')}
+              className="w-full rounded-2xl shadow-soft object-cover"
+              loading="lazy"
+            />
+            <div>
+              <h2 className="text-3xl lg:text-4xl font-bold text-primary">{t('freshMealMaker.cleanTitle')}</h2>
+              <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{t('freshMealMaker.cleanText')}</p>
+              <ul className="mt-6 space-y-3">
+                {[t('freshMealMaker.cleanPoint1'), t('freshMealMaker.cleanPoint2'), t('freshMealMaker.cleanPoint3')].map(
+                  (c) => (
+                    <li key={c} className="flex items-start gap-3">
+                      <Check className="w-5 h-5 text-success shrink-0 mt-0.5" />
+                      <span className="text-foreground leading-relaxed">{c}</span>
+                    </li>
+                  ),
+                )}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ===== FAQ ===== */}
       <section className="bg-cream">
         <div className="container py-16 lg:py-24">

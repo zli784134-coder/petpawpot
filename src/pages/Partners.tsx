@@ -96,7 +96,7 @@ export default function Partners() {
             </p>
           </div>
           <img
-            src={IMAGES.partnersProduct}
+            src={IMAGES.b2b.b2bMachine}
             alt={t('partners.opportunityTitle')}
             className="w-full rounded-2xl shadow-soft object-cover"
           />
