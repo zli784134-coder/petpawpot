@@ -24,6 +24,10 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm text-muted-foreground">{t('hero.subtitle')}</p>
+            <div className="mt-4 space-y-1 text-sm">
+              <a href="mailto:hello@petpawpot.com" className="block text-muted-foreground hover:text-primary transition-colors">hello@petpawpot.com</a>
+              <a href="mailto:support@petpawpot.com" className="block text-muted-foreground hover:text-primary transition-colors">support@petpawpot.com</a>
+            </div>
           </div>
 
           {/* Product */}

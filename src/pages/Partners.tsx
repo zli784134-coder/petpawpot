@@ -169,6 +169,11 @@ export default function Partners() {
           <div className="text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-primary">{t('partners.partnerForm')}</h2>
             <p className="mt-4 text-lg text-muted-foreground">{t('partners.formIntro')}</p>
+            <p className="mt-2 text-sm text-muted-foreground">
+              <a href="mailto:sales@petpawpot.com" className="text-primary font-semibold hover:underline">
+                {t('partners.formEmailAlt')}
+              </a>
+            </p>
           </div>
 
           <div className="mt-10 rounded-2xl border border-border bg-white p-6 sm:p-10 shadow-soft">

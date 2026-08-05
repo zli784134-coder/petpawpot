@@ -261,7 +261,12 @@ export default function FreshMealMaker() {
             ))}
           </div>
         </div>
-      </section>
+                <p className="mt-8 text-center text-muted-foreground">
+            <a href="mailto:support@petpawpot.com" className="text-primary font-semibold hover:underline">
+              {t('freshMealMaker.faqContact')}
+            </a>
+          </p>
+</section>
 
       {/* ===== Final CTA ===== */}
       <section className="bg-secondary text-white">

@@ -536,11 +536,11 @@ export default function Home() {
               <ArrowRight className="w-4 h-4" />
             </Link>
             <a
-              href="mailto:partner@petpawpot.com"
+              href="mailto:sales@petpawpot.com"
               className="inline-flex items-center gap-2 h-12 px-8 rounded-lg bg-white/10 hover:bg-white/20 text-white font-semibold transition-all"
             >
               <Mail className="w-4 h-4" />
-              partner@petpawpot.com
+              sales@petpawpot.com
             </a>
           </div>
         </div>
