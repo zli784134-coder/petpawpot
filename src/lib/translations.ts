@@ -207,6 +207,10 @@ export const translations = {
       
       // Product Details
       productDetails: 'Product Features',
+      detailHeating: 'Precise low-temp cooking',
+      detailStirring: 'Auto stirring',
+      detailNonstick: 'Non-stick inner pot',
+      detailDishwasher: 'Dishwasher-safe pot',
       feature1: 'Smart Temperature Control: Maintains 35°C optimal serving temperature',
       feature2: 'Recipe Integration: Works seamlessly with PetPawPot AI Nutritionist',
       feature3: 'Easy Cleanup: Dishwasher-safe components',
@@ -747,6 +751,10 @@ export const translations = {
       
       // Product Details
       productDetails: '产品特性',
+      detailHeating: '精准低温烹煮',
+      detailStirring: '自动搅拌',
+      detailNonstick: '不粘内胆',
+      detailDishwasher: '内胆可进洗碗机',
       feature1: '智能温度控制：维持 35℃ 最佳供应温度',
       feature2: '食谱集成：与宠鲜鲜 AI 营养师无缝配合',
       feature3: '易于清洁：洗碗机安全组件',

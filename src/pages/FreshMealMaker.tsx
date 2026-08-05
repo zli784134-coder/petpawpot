@@ -87,7 +87,7 @@ export default function FreshMealMaker() {
             </div>
             <div>
               <img
-                src={IMAGES.productHero}
+                src={IMAGES.b2b.productHeroIngredients}
                 alt={t('freshMealMaker.title')}
                 className="w-full rounded-2xl shadow-soft object-cover"
               />
@@ -159,7 +159,7 @@ export default function FreshMealMaker() {
         <div className="container py-16 lg:py-24">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <img
-              src={IMAGES.productDailyUse}
+              src={IMAGES.b2b.productCatEating}
               alt={t('freshMealMaker.lifestyleTitle')}
               className="w-full rounded-2xl shadow-soft object-cover"
             />
@@ -186,7 +186,7 @@ export default function FreshMealMaker() {
         </div>
         <div className="mt-12 grid lg:grid-cols-2 gap-12 items-center">
           <img
-            src={IMAGES.productOneTouch}
+            src={IMAGES.b2b.productExploded}
             alt={t('freshMealMaker.productDetails')}
             className="w-full rounded-2xl shadow-soft object-cover"
           />
@@ -198,6 +198,20 @@ export default function FreshMealMaker() {
               </div>
             ))}
           </div>
+        </div>
+        {/* 细节实拍:控温/搅拌/不粘内胆/可进洗碗机 */}
+        <div className="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-6">
+          {[
+            { img: IMAGES.b2b.detailHeating, label: t('freshMealMaker.detailHeating') },
+            { img: IMAGES.b2b.detailStirring, label: t('freshMealMaker.detailStirring') },
+            { img: IMAGES.b2b.detailNonstick, label: t('freshMealMaker.detailNonstick') },
+            { img: IMAGES.b2b.detailDishwasher, label: t('freshMealMaker.detailDishwasher') },
+          ].map((d) => (
+            <figure key={d.label} className="rounded-2xl bg-white border border-border overflow-hidden shadow-card">
+              <img src={d.img} alt={d.label} className="w-full aspect-square object-cover" loading="lazy" />
+              <figcaption className="p-3 text-sm font-semibold text-primary text-center">{d.label}</figcaption>
+            </figure>
+          ))}
         </div>
       </section>
 

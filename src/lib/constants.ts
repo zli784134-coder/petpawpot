@@ -43,5 +43,13 @@ export const IMAGES = {
     costSubscription: '/images/b2b/cost-subscription.webp',
     costPetPawPot: '/images/b2b/cost-petpawpot.webp',
     b2bMachine: '/images/b2b/b2b-machine-clean.webp',
+    // 2026-08 补充包:产品页主视觉/结构/细节(手机App特写图按方案A继续弃用)
+    productHeroIngredients: '/images/b2b/product-hero-ingredients.webp', // 机器内胆装料+食材环
+    productCatEating: '/images/b2b/product-cat-eating.webp', // 猫从内胆进食(真实使用)
+    productExploded: '/images/b2b/product-exploded.webp', // 爆炸结构图(盖/搅拌/内胆/主体)
+    detailHeating: '/images/b2b/detail-heating.webp', // 控温加热
+    detailStirring: '/images/b2b/detail-stirring.webp', // 自动搅拌
+    detailNonstick: '/images/b2b/detail-nonstick.webp', // 不粘内胆
+    detailDishwasher: '/images/b2b/detail-dishwasher.webp', // 内胆可进洗碗机
   },
 } as const;
