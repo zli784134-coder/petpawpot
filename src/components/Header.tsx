@@ -33,12 +33,12 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden xl:flex items-center gap-0 flex-1 min-w-0 justify-end overflow-hidden mx-3">
+          <nav className="hidden xl:flex items-center gap-0 flex-1 min-w-0 justify-center overflow-hidden mx-2">
             {navItems.map((item) => (
               <Link
                 key={item.key}
                 href={item.href}
-                className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium h-9 px-1.5 py-2 hover:bg-accent hover:text-primary transition-colors"
+                className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-[13px] 2xl:text-sm font-medium h-9 px-1 2xl:px-2 py-2 hover:bg-accent hover:text-primary transition-colors"
               >
                 {item.label}
               </Link>
