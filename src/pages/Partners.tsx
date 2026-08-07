@@ -165,6 +165,21 @@ export default function Partners() {
 
       {/* ===== Inquiry form (Netlify Forms) ===== */}
       <section id="inquiry" className="container py-16 lg:py-24">
+        {/* 产品资料长图(老板整合图) */}
+        <div className="mb-16">
+          <div className="text-center max-w-2xl mx-auto">
+            <h2 className="text-3xl lg:text-4xl font-bold text-primary">{t('partners.overviewTitle')}</h2>
+            <p className="mt-3 text-muted-foreground">{t('partners.overviewLead')}</p>
+          </div>
+          <div className="mt-8 grid sm:grid-cols-3 gap-6">
+            {[IMAGES.b2b.overview1, IMAGES.b2b.overview2, IMAGES.b2b.overview3].map((img) => (
+              <a key={img} href={img} target="_blank" rel="noopener noreferrer" className="block rounded-2xl overflow-hidden border border-border shadow-card hover:shadow-soft transition-shadow">
+                <img src={img} alt={t('partners.overviewTitle')} className="w-full h-auto" loading="lazy" />
+              </a>
+            ))}
+          </div>
+        </div>
+
         <div className="max-w-2xl mx-auto">
           <div className="text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-primary">{t('partners.partnerForm')}</h2>

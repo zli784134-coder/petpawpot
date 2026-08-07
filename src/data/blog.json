@@ -2,10 +2,16 @@
   {
     "slug": "fresh-feeding-101",
     "category": "freshFeeding",
-    "image": "/images/hero-kitchen-scene_35de91ab.png",
+    "image": "/images/b2b/pain-intro-prep.webp",
     "date": "2026-06-18",
-    "readTime": { "en": "6 min read", "zh": "阅读 6 分钟" },
-    "author": { "en": "PetPawPot Nutrition Team", "zh": "宠鲜鲜营养团队" },
+    "readTime": {
+      "en": "6 min read",
+      "zh": "阅读 6 分钟"
+    },
+    "author": {
+      "en": "PetPawPot Nutrition Team",
+      "zh": "宠鲜鲜营养团队"
+    },
     "title": {
       "en": "Fresh Feeding 101: What It Really Means for Your Dog",
       "zh": "鲜食喂养入门：它对狗狗到底意味着什么"
@@ -16,42 +22,96 @@
     },
     "content": {
       "en": [
-        { "type": "p", "text": "\"Fresh feeding\" gets used loosely across pet forums, but at its core it means one thing: feeding your dog real, recognizable ingredients that have been minimally processed. Instead of shelf-stable kibble cooked at extreme heat, fresh meals use whole proteins, vegetables, and healthy fats prepared gently enough to preserve their nutrition." },
-        { "type": "h2", "text": "Why gentle cooking matters" },
-        { "type": "p", "text": "High-heat extrusion, the process behind most dry food, can degrade heat-sensitive vitamins and denature proteins. Gentle cooking at controlled temperatures keeps more of the original nutrient profile intact while still eliminating harmful bacteria. This is the balance fresh feeding aims for: safe, but not over-processed." },
-        { "type": "h2", "text": "The three barriers pet parents hit" },
-        { "type": "ul", "items": [
-          "Time: cooking daily meals from scratch can take 30-60 minutes a day.",
-          "Knowledge: balancing calcium, protein, and micronutrients is genuinely hard.",
-          "Consistency: motivation fades, and half-finished fresh routines quietly revert to kibble."
-        ] },
-        { "type": "quote", "text": "Fresh feeding fails not because it is wrong, but because it is hard to sustain. The goal is a system you can keep." },
-        { "type": "h2", "text": "How to start without burning out" },
-        { "type": "p", "text": "Begin by replacing one meal a day. Use a small set of nutrition-checked recipes rather than improvising. Portion and batch-cook a few days at a time. A Fresh Meal Maker automates the cooking step, and an AI Nutritionist handles the balancing math, so the routine survives past the first enthusiastic week." }
+        {
+          "type": "p",
+          "text": "\"Fresh feeding\" gets used loosely across pet forums, but at its core it means one thing: feeding your dog real, recognizable ingredients that have been minimally processed. Instead of shelf-stable kibble cooked at extreme heat, fresh meals use whole proteins, vegetables, and healthy fats prepared gently enough to preserve their nutrition."
+        },
+        {
+          "type": "h2",
+          "text": "Why gentle cooking matters"
+        },
+        {
+          "type": "p",
+          "text": "High-heat extrusion, the process behind most dry food, can degrade heat-sensitive vitamins and denature proteins. Gentle cooking at controlled temperatures keeps more of the original nutrient profile intact while still eliminating harmful bacteria. This is the balance fresh feeding aims for: safe, but not over-processed."
+        },
+        {
+          "type": "h2",
+          "text": "The three barriers pet parents hit"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Time: cooking daily meals from scratch can take 30-60 minutes a day.",
+            "Knowledge: balancing calcium, protein, and micronutrients is genuinely hard.",
+            "Consistency: motivation fades, and half-finished fresh routines quietly revert to kibble."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Fresh feeding fails not because it is wrong, but because it is hard to sustain. The goal is a system you can keep."
+        },
+        {
+          "type": "h2",
+          "text": "How to start without burning out"
+        },
+        {
+          "type": "p",
+          "text": "Begin by replacing one meal a day. Use a small set of nutrition-checked recipes rather than improvising. Portion and batch-cook a few days at a time. A Fresh Meal Maker automates the cooking step, and an AI Nutritionist handles the balancing math, so the routine survives past the first enthusiastic week."
+        }
       ],
       "zh": [
-        { "type": "p", "text": "\"鲜食喂养\"这个词在宠物论坛里被用得很随意，但它的核心只有一件事：给狗狗吃真实、可辨认、只经过最少加工的食材。不是在极高温下做出的常温干粮，而是用完整的蛋白质、蔬菜和健康脂肪，用足够温和的方式烹饪，以保留营养。" },
-        { "type": "h2", "text": "为什么温和烹饪很重要" },
-        { "type": "p", "text": "高温膨化——大多数干粮的加工方式——会破坏对热敏感的维生素并使蛋白质变性。在受控温度下温和烹饪，能在杀灭有害细菌的同时，尽量保留食材原本的营养。这正是鲜食追求的平衡：安全，但不过度加工。" },
-        { "type": "h2", "text": "宠物主人会撞上的三道坎" },
-        { "type": "ul", "items": [
-          "时间：每天从零做饭可能要花 30-60 分钟。",
-          "知识：钙、蛋白质和微量元素的平衡确实很难。",
-          "坚持：热情会消退，做了一半的鲜食计划常常悄悄退回干粮。"
-        ] },
-        { "type": "quote", "text": "鲜食失败不是因为它错了，而是因为它难以坚持。目标是一套你能一直用下去的系统。" },
-        { "type": "h2", "text": "如何开始又不半途而废" },
-        { "type": "p", "text": "从每天替换一餐开始。使用少量经营养核验的食谱，而不是即兴发挥。一次备好几天的分量。鲜食机把烹饪这一步自动化，AI 营养师负责搭配的计算，这样这套习惯才能撑过最初那个充满热情的星期。" }
+        {
+          "type": "p",
+          "text": "\"鲜食喂养\"这个词在宠物论坛里被用得很随意，但它的核心只有一件事：给狗狗吃真实、可辨认、只经过最少加工的食材。不是在极高温下做出的常温干粮，而是用完整的蛋白质、蔬菜和健康脂肪，用足够温和的方式烹饪，以保留营养。"
+        },
+        {
+          "type": "h2",
+          "text": "为什么温和烹饪很重要"
+        },
+        {
+          "type": "p",
+          "text": "高温膨化——大多数干粮的加工方式——会破坏对热敏感的维生素并使蛋白质变性。在受控温度下温和烹饪，能在杀灭有害细菌的同时，尽量保留食材原本的营养。这正是鲜食追求的平衡：安全，但不过度加工。"
+        },
+        {
+          "type": "h2",
+          "text": "宠物主人会撞上的三道坎"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "时间：每天从零做饭可能要花 30-60 分钟。",
+            "知识：钙、蛋白质和微量元素的平衡确实很难。",
+            "坚持：热情会消退，做了一半的鲜食计划常常悄悄退回干粮。"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "鲜食失败不是因为它错了，而是因为它难以坚持。目标是一套你能一直用下去的系统。"
+        },
+        {
+          "type": "h2",
+          "text": "如何开始又不半途而废"
+        },
+        {
+          "type": "p",
+          "text": "从每天替换一餐开始。使用少量经营养核验的食谱，而不是即兴发挥。一次备好几天的分量。鲜食机把烹饪这一步自动化，AI 营养师负责搭配的计算，这样这套习惯才能撑过最初那个充满热情的星期。"
+        }
       ]
     }
   },
   {
     "slug": "real-cost-of-fresh-feeding",
     "category": "costs",
-    "image": "/images/product-lifestyle_07d89eb1.png",
+    "image": "/images/b2b/cost-petpawpot.webp",
     "date": "2026-06-25",
-    "readTime": { "en": "7 min read", "zh": "阅读 7 分钟" },
-    "author": { "en": "PetPawPot Nutrition Team", "zh": "宠鲜鲜营养团队" },
+    "readTime": {
+      "en": "7 min read",
+      "zh": "阅读 7 分钟"
+    },
+    "author": {
+      "en": "PetPawPot Nutrition Team",
+      "zh": "宠鲜鲜营养团队"
+    },
     "title": {
       "en": "The Real Cost of Fresh Feeding (vs. Kibble and Subscriptions)",
       "zh": "鲜食喂养的真实成本（对比干粮与订阅服务）"
@@ -62,46 +122,112 @@
     },
     "content": {
       "en": [
-        { "type": "p", "text": "The most common objection to fresh feeding is price. It is a fair concern, but the numbers are usually misunderstood. Let us separate the three realistic options for a 25kg adult dog." },
-        { "type": "h2", "text": "Option 1: Premium kibble" },
-        { "type": "p", "text": "Quality dry food runs roughly $1.50-$2.50 per day. It is convenient and cheap up front, but it is the most processed option and offers the least ingredient transparency." },
-        { "type": "h2", "text": "Option 2: Fresh food subscription" },
-        { "type": "p", "text": "Delivered fresh subscriptions typically land between $4 and $7 per day. You get convenience and balanced nutrition, but you also pay for cold-chain shipping, packaging, and marketing on every single meal, forever." },
-        { "type": "h2", "text": "Option 3: DIY fresh with equipment" },
-        { "type": "ul", "items": [
-          "Ingredient cost: roughly $2.00-$3.00 per day at grocery prices.",
-          "Equipment: a one-time cost for a Fresh Meal Maker, amortized over years.",
-          "Time cost: minutes, not an hour, once cooking is automated."
-        ] },
-        { "type": "quote", "text": "The subscription premium is not the food. It is the logistics. Own the equipment and that premium disappears." },
-        { "type": "h2", "text": "The break-even point" },
-        { "type": "p", "text": "Compared to a subscription at $5/day, the recurring savings of DIY fresh feeding often pay back the equipment within the first year, and every year after that is pure savings. Fresh feeding is not inherently expensive. Paying someone else to cook and ship it is what costs more." }
+        {
+          "type": "p",
+          "text": "The most common objection to fresh feeding is price. It is a fair concern, but the numbers are usually misunderstood. Let us separate the three realistic options for a 25kg adult dog."
+        },
+        {
+          "type": "h2",
+          "text": "Option 1: Premium kibble"
+        },
+        {
+          "type": "p",
+          "text": "Quality dry food runs roughly $1.50-$2.50 per day. It is convenient and cheap up front, but it is the most processed option and offers the least ingredient transparency."
+        },
+        {
+          "type": "h2",
+          "text": "Option 2: Fresh food subscription"
+        },
+        {
+          "type": "p",
+          "text": "Delivered fresh subscriptions typically land between $4 and $7 per day. You get convenience and balanced nutrition, but you also pay for cold-chain shipping, packaging, and marketing on every single meal, forever."
+        },
+        {
+          "type": "h2",
+          "text": "Option 3: DIY fresh with equipment"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Ingredient cost: roughly $2.00-$3.00 per day at grocery prices.",
+            "Equipment: a one-time cost for a Fresh Meal Maker, amortized over years.",
+            "Time cost: minutes, not an hour, once cooking is automated."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "The subscription premium is not the food. It is the logistics. Own the equipment and that premium disappears."
+        },
+        {
+          "type": "h2",
+          "text": "The break-even point"
+        },
+        {
+          "type": "p",
+          "text": "Compared to a subscription at $5/day, the recurring savings of DIY fresh feeding often pay back the equipment within the first year, and every year after that is pure savings. Fresh feeding is not inherently expensive. Paying someone else to cook and ship it is what costs more."
+        }
       ],
       "zh": [
-        { "type": "p", "text": "对鲜食喂养最常见的质疑就是贵。这个担心合情合理，但数字常常被误解。我们以一只 25kg 成犬为例，把三种现实选项分开来看。" },
-        { "type": "h2", "text": "方案一：优质干粮" },
-        { "type": "p", "text": "优质干粮大约每天 1.5-2.5 美元。它方便、前期便宜，但也是加工程度最高、食材透明度最低的选项。" },
-        { "type": "h2", "text": "方案二：鲜食订阅" },
-        { "type": "p", "text": "配送到家的鲜食订阅通常在每天 4 到 7 美元之间。你得到了便利和均衡营养，但每一餐都在为冷链运输、包装和营销付费——而且是永远。" },
-        { "type": "h2", "text": "方案三：自己在家做鲜食（配设备）" },
-        { "type": "ul", "items": [
-          "食材成本：按超市价格大约每天 2.0-3.0 美元。",
-          "设备：鲜食机是一次性投入，可以摊销好几年。",
-          "时间成本：烹饪自动化后，是几分钟，而不是一小时。"
-        ] },
-        { "type": "quote", "text": "订阅的溢价不在食物本身，而在物流。拥有设备，这份溢价就消失了。" },
-        { "type": "h2", "text": "回本点" },
-        { "type": "p", "text": "和每天 5 美元的订阅相比，自己做鲜食省下的钱通常在第一年内就能覆盖设备成本，之后每一年都是净省。鲜食本身并不贵，贵的是花钱让别人替你做饭和配送。" }
+        {
+          "type": "p",
+          "text": "对鲜食喂养最常见的质疑就是贵。这个担心合情合理，但数字常常被误解。我们以一只 25kg 成犬为例，把三种现实选项分开来看。"
+        },
+        {
+          "type": "h2",
+          "text": "方案一：优质干粮"
+        },
+        {
+          "type": "p",
+          "text": "优质干粮大约每天 1.5-2.5 美元。它方便、前期便宜，但也是加工程度最高、食材透明度最低的选项。"
+        },
+        {
+          "type": "h2",
+          "text": "方案二：鲜食订阅"
+        },
+        {
+          "type": "p",
+          "text": "配送到家的鲜食订阅通常在每天 4 到 7 美元之间。你得到了便利和均衡营养，但每一餐都在为冷链运输、包装和营销付费——而且是永远。"
+        },
+        {
+          "type": "h2",
+          "text": "方案三：自己在家做鲜食（配设备）"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "食材成本：按超市价格大约每天 2.0-3.0 美元。",
+            "设备：鲜食机是一次性投入，可以摊销好几年。",
+            "时间成本：烹饪自动化后，是几分钟，而不是一小时。"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "订阅的溢价不在食物本身，而在物流。拥有设备，这份溢价就消失了。"
+        },
+        {
+          "type": "h2",
+          "text": "回本点"
+        },
+        {
+          "type": "p",
+          "text": "和每天 5 美元的订阅相比，自己做鲜食省下的钱通常在第一年内就能覆盖设备成本，之后每一年都是净省。鲜食本身并不贵，贵的是花钱让别人替你做饭和配送。"
+        }
       ]
     }
   },
   {
     "slug": "five-nutrients-every-dog-needs",
     "category": "nutrition",
-    "image": "/images/recipe-chicken-rice_2a7ac832.png",
+    "image": "/images/recipe-chicken-rice.webp",
     "date": "2026-07-02",
-    "readTime": { "en": "5 min read", "zh": "阅读 5 分钟" },
-    "author": { "en": "PetPawPot Nutrition Team", "zh": "宠鲜鲜营养团队" },
+    "readTime": {
+      "en": "5 min read",
+      "zh": "阅读 5 分钟"
+    },
+    "author": {
+      "en": "PetPawPot Nutrition Team",
+      "zh": "宠鲜鲜营养团队"
+    },
     "title": {
       "en": "5 Nutrients Every Dog Needs (and Where to Find Them)",
       "zh": "每只狗狗都需要的 5 种营养（以及它们从哪来）"
@@ -112,52 +238,136 @@
     },
     "content": {
       "en": [
-        { "type": "p", "text": "Home-cooked meals go wrong most often not from bad ingredients, but from gaps. A bowl of plain chicken and rice looks healthy but is missing several essentials. Here are the five groups a complete meal must cover." },
-        { "type": "h2", "text": "1. Quality protein" },
-        { "type": "p", "text": "The foundation of muscle, immune function, and repair. Lean chicken, turkey, beef, and fish all qualify. Variety across proteins helps cover the full amino acid profile." },
-        { "type": "h2", "text": "2. Essential fats (Omega-3 and 6)" },
-        { "type": "p", "text": "Critical for skin, coat, and joint health. Fish oil and salmon are excellent sources of the Omega-3s that most home recipes under-supply." },
-        { "type": "h2", "text": "3. Calcium and phosphorus balance" },
-        { "type": "p", "text": "This is the single most common gap in DIY diets. Muscle meat is low in calcium, so a supplement or an appropriate calcium source is almost always required to keep the ratio right." },
-        { "type": "h2", "text": "4. Digestible carbohydrates and fiber" },
-        { "type": "p", "text": "Rice, pumpkin, and sweet potato provide steady energy and gut-supporting fiber. They are optional in the wild but genuinely helpful for most companion dogs." },
-        { "type": "h2", "text": "5. Micronutrients" },
-        { "type": "ul", "items": [
-          "Vitamin E for antioxidant support.",
-          "Zinc and iron from organ meats or supplements.",
-          "Trace minerals that whole-food variety helps supply."
-        ] },
-        { "type": "quote", "text": "The problem with home cooking is rarely the ingredients you include. It is the ones you do not know are missing." },
-        { "type": "p", "text": "This is exactly the math an AI Nutritionist is built to check, flagging the gaps before they become a long-term deficiency." }
+        {
+          "type": "p",
+          "text": "Home-cooked meals go wrong most often not from bad ingredients, but from gaps. A bowl of plain chicken and rice looks healthy but is missing several essentials. Here are the five groups a complete meal must cover."
+        },
+        {
+          "type": "h2",
+          "text": "1. Quality protein"
+        },
+        {
+          "type": "p",
+          "text": "The foundation of muscle, immune function, and repair. Lean chicken, turkey, beef, and fish all qualify. Variety across proteins helps cover the full amino acid profile."
+        },
+        {
+          "type": "h2",
+          "text": "2. Essential fats (Omega-3 and 6)"
+        },
+        {
+          "type": "p",
+          "text": "Critical for skin, coat, and joint health. Fish oil and salmon are excellent sources of the Omega-3s that most home recipes under-supply."
+        },
+        {
+          "type": "h2",
+          "text": "3. Calcium and phosphorus balance"
+        },
+        {
+          "type": "p",
+          "text": "This is the single most common gap in DIY diets. Muscle meat is low in calcium, so a supplement or an appropriate calcium source is almost always required to keep the ratio right."
+        },
+        {
+          "type": "h2",
+          "text": "4. Digestible carbohydrates and fiber"
+        },
+        {
+          "type": "p",
+          "text": "Rice, pumpkin, and sweet potato provide steady energy and gut-supporting fiber. They are optional in the wild but genuinely helpful for most companion dogs."
+        },
+        {
+          "type": "h2",
+          "text": "5. Micronutrients"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Vitamin E for antioxidant support.",
+            "Zinc and iron from organ meats or supplements.",
+            "Trace minerals that whole-food variety helps supply."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "The problem with home cooking is rarely the ingredients you include. It is the ones you do not know are missing."
+        },
+        {
+          "type": "p",
+          "text": "This is exactly the math an AI Nutritionist is built to check, flagging the gaps before they become a long-term deficiency."
+        }
       ],
       "zh": [
-        { "type": "p", "text": "自制餐出问题，最常见的原因不是食材差，而是有缺口。一碗单纯的鸡肉拌米饭看起来很健康，却缺了好几样必需营养。下面是一顿完整餐必须覆盖的五组。" },
-        { "type": "h2", "text": "1. 优质蛋白质" },
-        { "type": "p", "text": "肌肉、免疫功能和修复的基础。瘦鸡肉、火鸡、牛肉和鱼都符合要求。在不同蛋白之间轮换，有助于覆盖完整的氨基酸谱。" },
-        { "type": "h2", "text": "2. 必需脂肪（Omega-3 和 6）" },
-        { "type": "p", "text": "对皮肤、被毛和关节健康至关重要。鱼油和三文鱼是 Omega-3 的极佳来源，而这恰恰是大多数自制食谱供应不足的部分。" },
-        { "type": "h2", "text": "3. 钙磷平衡" },
-        { "type": "p", "text": "这是自制饮食中最常见的单一缺口。纯肉的钙含量低，因此几乎总是需要补钙剂或合适的钙来源，来把比例调对。" },
-        { "type": "h2", "text": "4. 易消化的碳水与纤维" },
-        { "type": "p", "text": "米饭、南瓜和红薯提供稳定能量和有益肠道的纤维。在野外它们是可选的，但对大多数伴侣犬确实有帮助。" },
-        { "type": "h2", "text": "5. 微量营养素" },
-        { "type": "ul", "items": [
-          "维生素 E，提供抗氧化支持。",
-          "来自内脏或补充剂的锌和铁。",
-          "全食材的多样性有助于补足的微量矿物质。"
-        ] },
-        { "type": "quote", "text": "自制餐的问题，很少出在你放进去的食材，而出在你不知道自己漏掉了什么。" },
-        { "type": "p", "text": "这正是 AI 营养师被设计来核查的算术——在缺口变成长期缺乏之前把它标出来。" }
+        {
+          "type": "p",
+          "text": "自制餐出问题，最常见的原因不是食材差，而是有缺口。一碗单纯的鸡肉拌米饭看起来很健康，却缺了好几样必需营养。下面是一顿完整餐必须覆盖的五组。"
+        },
+        {
+          "type": "h2",
+          "text": "1. 优质蛋白质"
+        },
+        {
+          "type": "p",
+          "text": "肌肉、免疫功能和修复的基础。瘦鸡肉、火鸡、牛肉和鱼都符合要求。在不同蛋白之间轮换，有助于覆盖完整的氨基酸谱。"
+        },
+        {
+          "type": "h2",
+          "text": "2. 必需脂肪（Omega-3 和 6）"
+        },
+        {
+          "type": "p",
+          "text": "对皮肤、被毛和关节健康至关重要。鱼油和三文鱼是 Omega-3 的极佳来源，而这恰恰是大多数自制食谱供应不足的部分。"
+        },
+        {
+          "type": "h2",
+          "text": "3. 钙磷平衡"
+        },
+        {
+          "type": "p",
+          "text": "这是自制饮食中最常见的单一缺口。纯肉的钙含量低，因此几乎总是需要补钙剂或合适的钙来源，来把比例调对。"
+        },
+        {
+          "type": "h2",
+          "text": "4. 易消化的碳水与纤维"
+        },
+        {
+          "type": "p",
+          "text": "米饭、南瓜和红薯提供稳定能量和有益肠道的纤维。在野外它们是可选的，但对大多数伴侣犬确实有帮助。"
+        },
+        {
+          "type": "h2",
+          "text": "5. 微量营养素"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "维生素 E，提供抗氧化支持。",
+            "来自内脏或补充剂的锌和铁。",
+            "全食材的多样性有助于补足的微量矿物质。"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "自制餐的问题，很少出在你放进去的食材，而出在你不知道自己漏掉了什么。"
+        },
+        {
+          "type": "p",
+          "text": "这正是 AI 营养师被设计来核查的算术——在缺口变成长期缺乏之前把它标出来。"
+        }
       ]
     }
   },
   {
     "slug": "the-petpawpot-story",
     "category": "brandStory",
-    "image": "/images/ai-nutritionist-mockup_4fbbf956.png",
+    "image": "/images/b2b/banner-machine-kitchen.webp",
     "date": "2026-07-10",
-    "readTime": { "en": "4 min read", "zh": "阅读 4 分钟" },
-    "author": { "en": "The PetPawPot Team", "zh": "宠鲜鲜团队" },
+    "readTime": {
+      "en": "4 min read",
+      "zh": "阅读 4 分钟"
+    },
+    "author": {
+      "en": "The PetPawPot Team",
+      "zh": "宠鲜鲜团队"
+    },
     "title": {
       "en": "The PetPawPot Story: Why We Built a Fresh Meal Maker",
       "zh": "宠鲜鲜的故事：我们为什么要做一台鲜食机"
@@ -168,32 +378,80 @@
     },
     "content": {
       "en": [
-        { "type": "p", "text": "PetPawPot did not begin as a hardware idea. It began at a kitchen counter, at 7am, with a dog staring up expectantly and a person realizing they had once again run out of time to cook fresh." },
-        { "type": "h2", "text": "The pattern we kept seeing" },
-        { "type": "p", "text": "Everyone we talked to wanted to feed fresh. Almost no one could keep it up. They would start strong, buy the ingredients, cook for two weeks, and then life would win. The kibble would come back. The guilt would settle in. It was not a motivation problem. It was a systems problem." },
-        { "type": "h2", "text": "What we decided to fix" },
-        { "type": "ul", "items": [
-          "Make the cooking one-touch, so time stops being the barrier.",
-          "Put the nutrition math on an AI, so knowledge stops being the barrier.",
-          "Design for daily reality, so consistency stops being the barrier."
-        ] },
-        { "type": "quote", "text": "We are not asking people to love cooking. We are removing the reasons fresh feeding falls apart." },
-        { "type": "h2", "text": "Where we are now" },
-        { "type": "p", "text": "The Fresh Meal Maker, the AI Nutritionist, and a growing library of nutrition-checked recipes are all built around a single belief: fresh feeding should be sustainable, not heroic. That is the whole point of PetPawPot, and it is why every recipe and feature comes back to the same question, can a busy person actually keep doing this?" }
+        {
+          "type": "p",
+          "text": "PetPawPot did not begin as a hardware idea. It began at a kitchen counter, at 7am, with a dog staring up expectantly and a person realizing they had once again run out of time to cook fresh."
+        },
+        {
+          "type": "h2",
+          "text": "The pattern we kept seeing"
+        },
+        {
+          "type": "p",
+          "text": "Everyone we talked to wanted to feed fresh. Almost no one could keep it up. They would start strong, buy the ingredients, cook for two weeks, and then life would win. The kibble would come back. The guilt would settle in. It was not a motivation problem. It was a systems problem."
+        },
+        {
+          "type": "h2",
+          "text": "What we decided to fix"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Make the cooking one-touch, so time stops being the barrier.",
+            "Put the nutrition math on an AI, so knowledge stops being the barrier.",
+            "Design for daily reality, so consistency stops being the barrier."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "We are not asking people to love cooking. We are removing the reasons fresh feeding falls apart."
+        },
+        {
+          "type": "h2",
+          "text": "Where we are now"
+        },
+        {
+          "type": "p",
+          "text": "The Fresh Meal Maker, the AI Nutritionist, and a growing library of nutrition-checked recipes are all built around a single belief: fresh feeding should be sustainable, not heroic. That is the whole point of PetPawPot, and it is why every recipe and feature comes back to the same question, can a busy person actually keep doing this?"
+        }
       ],
       "zh": [
-        { "type": "p", "text": "宠鲜鲜的起点不是一个硬件创意，而是清晨 7 点的厨房台前——一只狗满怀期待地抬头看着你，而你意识到自己又一次没时间做鲜食了。" },
-        { "type": "h2", "text": "我们反复看到的模式" },
-        { "type": "p", "text": "我们聊过的每个人都想给狗狗吃鲜食，却几乎没人能坚持下来。他们会热情开局，买好食材，做上两周，然后生活获胜，干粮回归，愧疚感也随之而来。这不是动力问题，而是系统问题。" },
-        { "type": "h2", "text": "我们决定要解决的事" },
-        { "type": "ul", "items": [
-          "让烹饪变成一键完成，让时间不再是障碍。",
-          "把营养计算交给 AI，让知识不再是障碍。",
-          "为每天的真实生活而设计，让坚持不再是障碍。"
-        ] },
-        { "type": "quote", "text": "我们不是要人们爱上做饭，而是移除让鲜食半途而废的那些原因。" },
-        { "type": "h2", "text": "我们现在走到了哪里" },
-        { "type": "p", "text": "鲜食机、AI 营养师，以及不断扩充的经营养核验食谱库，都围绕同一个信念构建：鲜食应该是可持续的，而不是英雄主义的。这就是宠鲜鲜的全部意义，也是为什么每一个食谱和功能都回到同一个问题——一个忙碌的人，真的能一直做下去吗？" }
+        {
+          "type": "p",
+          "text": "宠鲜鲜的起点不是一个硬件创意，而是清晨 7 点的厨房台前——一只狗满怀期待地抬头看着你，而你意识到自己又一次没时间做鲜食了。"
+        },
+        {
+          "type": "h2",
+          "text": "我们反复看到的模式"
+        },
+        {
+          "type": "p",
+          "text": "我们聊过的每个人都想给狗狗吃鲜食，却几乎没人能坚持下来。他们会热情开局，买好食材，做上两周，然后生活获胜，干粮回归，愧疚感也随之而来。这不是动力问题，而是系统问题。"
+        },
+        {
+          "type": "h2",
+          "text": "我们决定要解决的事"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "让烹饪变成一键完成，让时间不再是障碍。",
+            "把营养计算交给 AI，让知识不再是障碍。",
+            "为每天的真实生活而设计，让坚持不再是障碍。"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "我们不是要人们爱上做饭，而是移除让鲜食半途而废的那些原因。"
+        },
+        {
+          "type": "h2",
+          "text": "我们现在走到了哪里"
+        },
+        {
+          "type": "p",
+          "text": "鲜食机、AI 营养师，以及不断扩充的经营养核验食谱库，都围绕同一个信念构建：鲜食应该是可持续的，而不是英雄主义的。这就是宠鲜鲜的全部意义，也是为什么每一个食谱和功能都回到同一个问题——一个忙碌的人，真的能一直做下去吗？"
+        }
       ]
     }
   }

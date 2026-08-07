@@ -53,5 +53,8 @@ export const IMAGES = {
     detailDishwasher: '/images/b2b/detail-dishwasher.webp', // 内胆可进洗碗机
     bannerMachineKitchen: '/images/b2b/banner-machine-kitchen.webp', // 厨房横幅(机器+食材,带logo)
     cleaningDishwasherLg: '/images/b2b/cleaning-dishwasher-lg.webp', // 清洁区大图(内胆进洗碗机)
+    overview1: '/images/b2b/overview-1.webp', // 产品详情长图1(老板2026-08整合图)
+    overview2: '/images/b2b/overview-2.webp', // 产品详情长图2
+    overview3: '/images/b2b/overview-3.webp', // 产品详情长图3
   },
 } as const;

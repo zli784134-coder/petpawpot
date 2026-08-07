@@ -30,7 +30,7 @@ export default function Seo({ titleKey, descKey, title, description, image }: Se
     const resolvedTitle = title ?? (titleKey ? t(titleKey) : t('seo.defaultTitle'));
     const resolvedDesc = description ?? (descKey ? t(descKey) : '');
     const origin = typeof window !== 'undefined' ? window.location.origin : '';
-    const absImg = origin + (image ?? IMAGES.heroKitchen);
+    const absImg = origin + (image ?? IMAGES.b2b.hero);
     const url = origin + window.location.pathname;
 
     document.title = resolvedTitle;

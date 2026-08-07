@@ -33,12 +33,12 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden xl:flex items-center gap-0">
+          <nav className="hidden xl:flex items-center gap-0 flex-1 min-w-0 justify-end overflow-hidden mx-3">
             {navItems.map((item) => (
               <Link
                 key={item.key}
                 href={item.href}
-                className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium h-9 px-2 py-2 hover:bg-accent hover:text-primary transition-colors"
+                className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium h-9 px-1.5 py-2 hover:bg-accent hover:text-primary transition-colors"
               >
                 {item.label}
               </Link>
@@ -46,9 +46,9 @@ export default function Header() {
           </nav>
 
           {/* Right Side - Language + CTA */}
-          <div className="flex items-center gap-2 sm:gap-3">
+          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             {/* Language Switcher */}
-            <div className="flex items-center gap-1 border border-border rounded-lg p-1">
+            <div className="flex flex-nowrap items-center gap-1 border border-border rounded-lg p-1 whitespace-nowrap">
               <button
                 onClick={() => setLanguage('en')}
                 className={`px-2 py-1 rounded text-sm font-medium transition-all ${
