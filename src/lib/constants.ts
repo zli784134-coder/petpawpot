@@ -1,6 +1,6 @@
 // 站点级常量
 // AI 营养师系统部署地址（我方自研 v0.2.0，LP 求解器+氨基酸校验，取代 Manus 期老原型）
-export const AI_NUTRITIONIST_URL = 'https://petpawpot-nutritionist.netlify.app/';
+export const AI_NUTRITIONIST_URL = 'https://verabowl.com/';
 
 // 本地化后的图片资源（原 Manus S3 图已下载到 public/images/）
 export const IMAGES = {
