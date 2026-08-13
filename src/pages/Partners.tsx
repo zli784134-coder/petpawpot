@@ -23,6 +23,7 @@ export default function Partners() {
   const { t } = useLanguage();
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
+  const [failed, setFailed] = useState(false);
 
   const provides = [1, 2, 3, 4, 5].map((n, i) => ({
     icon: PROVIDE_ICONS[i],
@@ -50,15 +51,30 @@ export default function Partners() {
     fd.forEach((v, k) => {
       data[k] = String(v);
     });
+    if (submitting) return; // 防重复提交
     setSubmitting(true);
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode(data),
-    })
-      .then(() => setSubmitted(true))
-      .catch(() => setSubmitted(true))
-      .finally(() => setSubmitting(false));
+    setFailed(false);
+    // 超时保护:20s 未响应按失败处理(询盘是核心线索,绝不能静默丢失)
+    const ctrl = new AbortController();
+    const timer = window.setTimeout(() => ctrl.abort(), 20000);
+    void (async () => {
+      try {
+        const res = await fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: encode(data),
+          signal: ctrl.signal,
+        });
+        // 只有服务端确认成功才显示成功页
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        setSubmitted(true);
+      } catch {
+        setFailed(true);
+      } finally {
+        window.clearTimeout(timer);
+        setSubmitting(false);
+      }
+    })();
   };
 
   return (
@@ -310,6 +326,11 @@ export default function Partners() {
                 >
                   {submitting ? t('partners.formSubmitting') : t('partners.formSubmit')}
                 </button>
+                {failed && (
+                  <p className="text-sm font-medium text-destructive" role="alert">
+                    {t('partners.formFailed')}
+                  </p>
+                )}
               </form>
             )}
           </div>

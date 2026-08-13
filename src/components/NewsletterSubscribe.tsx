@@ -17,6 +17,8 @@ export default function NewsletterSubscribe({
 }: NewsletterSubscribeProps) {
   const { language } = useLanguage();
   const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [failed, setFailed] = useState(false);
 
   const copy = {
     title: language === 'en' ? 'Subscribe to Our Newsletter' : '订阅我们的资讯',
@@ -27,6 +29,11 @@ export default function NewsletterSubscribe({
     placeholder: language === 'en' ? 'Enter your email' : '输入您的邮箱',
     button: language === 'en' ? 'Subscribe' : '订阅',
     thanks: language === 'en' ? 'Thanks for subscribing!' : '感谢订阅！',
+    sending: language === 'en' ? 'Sending…' : '提交中…',
+    failed:
+      language === 'en'
+        ? 'Something went wrong — your email was NOT saved. Please try again, or write to hello@petpawpot.com.'
+        : '提交失败,你的邮箱未被保存。请重试,或发邮件至 hello@petpawpot.com。',
   };
 
   const encode = (data: Record<string, string>) =>
@@ -34,17 +41,32 @@ export default function NewsletterSubscribe({
       .map((k) => encodeURIComponent(k) + '=' + encodeURIComponent(data[k]))
       .join('&');
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (sending) return; // 防重复提交
     const form = e.currentTarget;
     const email = (form.elements.namedItem('email') as HTMLInputElement)?.value ?? '';
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({ 'form-name': 'newsletter', email }),
-    })
-      .then(() => setSubmitted(true))
-      .catch(() => setSubmitted(true));
+    setSending(true);
+    setFailed(false);
+    // 超时保护:15s 未响应按失败处理,绝不静默吞掉
+    const ctrl = new AbortController();
+    const timer = window.setTimeout(() => ctrl.abort(), 15000);
+    try {
+      const res = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: encode({ 'form-name': 'newsletter', email }),
+        signal: ctrl.signal,
+      });
+      // 只有服务端确认成功才显示成功——失败必须让用户看见
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      setSubmitted(true);
+    } catch {
+      setFailed(true);
+    } finally {
+      window.clearTimeout(timer);
+      setSending(false);
+    }
   };
 
   return (
@@ -85,11 +107,15 @@ export default function NewsletterSubscribe({
           />
           <button
             type="submit"
-            className="h-11 px-6 rounded-lg bg-secondary hover:bg-secondary/90 text-white font-semibold transition-all whitespace-nowrap"
+            disabled={sending}
+            className="h-11 px-6 rounded-lg bg-secondary hover:bg-secondary/90 disabled:opacity-60 disabled:cursor-not-allowed text-white font-semibold transition-all whitespace-nowrap"
           >
-            {copy.button}
+            {sending ? copy.sending : copy.button}
           </button>
         </form>
+      )}
+      {failed && !submitted && (
+        <p className="mt-3 text-sm font-medium text-destructive">{copy.failed}</p>
       )}
     </div>
   );

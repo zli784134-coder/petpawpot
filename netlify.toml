@@ -1,4 +1,4 @@
-# Netlify 部署配置（纯静态 SPA）
+# Netlify 部署配置（构建期预渲染的静态站，每条路由一份独立 HTML）
 [build]
   command = "npm run build"
   publish = "dist"
@@ -6,8 +6,6 @@
 [build.environment]
   NODE_VERSION = "20"
 
-# SPA 重定向：所有未匹配到静态资源的路径回退到 index.html，交给 wouter 前端路由
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+# 说明：不再使用 SPA 200 回退（那会让所有不存在的 URL 都返回 200，形成 soft 404）。
+# 每条合法路由在 dist/ 下都有对应的 <route>/index.html，Netlify 直接命中静态文件；
+# 未命中的路径由发布根目录的 dist/404.html 兜底，并返回真正的 404 状态码。
