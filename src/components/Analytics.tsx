@@ -27,11 +27,17 @@ export default function Analytics() {
       isFirstRun.current = false;
       return;
     }
-    window.gtag?.('event', 'page_view', {
-      page_path: location,
-      page_location: window.location.href,
-      page_title: document.title,
-    });
+    // 延后一个宏任务再发：Seo 组件在自己的 useEffect 里写 document.title，
+    // 而本组件位于 Switch 之前，effect 先于页面执行。直接发会把**上一页**的
+    // 标题记到新路径上（实测确认）。setTimeout 0 排在同批 effect 之后。
+    const timer = window.setTimeout(() => {
+      window.gtag?.('event', 'page_view', {
+        page_path: location,
+        page_location: window.location.href,
+        page_title: document.title,
+      });
+    }, 0);
+    return () => window.clearTimeout(timer);
   }, [location]);
 
   return null;
