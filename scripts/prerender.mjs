@@ -83,6 +83,16 @@ const routes = [
     priority: '0.5',
   },
   {
+    // 法务页：文案在 src/lib/legal.ts，不走 translations.seo，故此处直接给标题描述
+    path: '/privacy',
+    title: 'Privacy Policy | PetPawPot',
+    description:
+      'What PetPawPot collects through this website, why, and the choices you have — including Google Analytics and how to opt out.',
+    image: DEFAULT_IMAGE,
+    changefreq: 'yearly',
+    priority: '0.3',
+  },
+  {
     path: '/blog',
     ...seo.blog,
     image: DEFAULT_IMAGE,

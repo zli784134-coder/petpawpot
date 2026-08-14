@@ -99,9 +99,9 @@ export default function Footer() {
               © {new Date().getFullYear()} PetPawPot. {language === 'en' ? 'All rights reserved.' : '版权所有。'}
             </p>
             <div className="flex gap-6 mt-4 md:mt-0 text-sm text-muted-foreground">
-              <a href="#" className="hover:text-primary transition-colors">
+              <Link href="/privacy" className="hover:text-primary transition-colors">
                 {language === 'en' ? 'Privacy Policy' : '隐私政策'}
-              </a>
+              </Link>
               <a href="#" className="hover:text-primary transition-colors">
                 {language === 'en' ? 'Terms of Service' : '服务条款'}
               </a>
