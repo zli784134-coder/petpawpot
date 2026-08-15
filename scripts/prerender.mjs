@@ -93,6 +93,15 @@ const routes = [
     priority: '0.3',
   },
   {
+    path: '/terms',
+    title: 'Terms of Service | PetPawPot',
+    description:
+      'Terms of use for the PetPawPot website — what the site is, what it is not, acceptable use, intellectual property, and limitation of liability.',
+    image: DEFAULT_IMAGE,
+    changefreq: 'yearly',
+    priority: '0.3',
+  },
+  {
     path: '/blog',
     ...seo.blog,
     image: DEFAULT_IMAGE,

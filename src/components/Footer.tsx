@@ -102,9 +102,16 @@ export default function Footer() {
               <Link href="/privacy" className="hover:text-primary transition-colors">
                 {language === 'en' ? 'Privacy Policy' : '隐私政策'}
               </Link>
-              <a href="#" className="hover:text-primary transition-colors">
+              <Link href="/terms" className="hover:text-primary transition-colors">
                 {language === 'en' ? 'Terms of Service' : '服务条款'}
-              </a>
+              </Link>
+              <button
+                type="button"
+                onClick={() => window.__openCookiePrefs?.()}
+                className="hover:text-primary transition-colors"
+              >
+                {language === 'en' ? 'Cookie Settings' : 'Cookie 设置'}
+              </button>
             </div>
           </div>
         </div>

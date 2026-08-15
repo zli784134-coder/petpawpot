@@ -1,6 +1,7 @@
 import { Route, Switch } from 'wouter';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 import Analytics from '@/components/Analytics';
+import CookieConsent from '@/components/CookieConsent';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Home from '@/pages/Home';
@@ -15,6 +16,7 @@ import AboutUs from '@/pages/AboutUs';
 import Blog from '@/pages/Blog';
 import BlogPost from '@/pages/BlogPost';
 import Privacy from '@/pages/Privacy';
+import Terms from '@/pages/Terms';
 import NotFound from '@/pages/NotFound';
 
 function App() {
@@ -35,10 +37,12 @@ function App() {
         <Route path="/blog" component={Blog} />
         <Route path="/blog/:slug" component={BlogPost} />
         <Route path="/privacy" component={Privacy} />
+        <Route path="/terms" component={Terms} />
         {/* 兜底 404 页 */}
         <Route component={NotFound} />
       </Switch>
       <Footer />
+      <CookieConsent />
     </LanguageProvider>
   );
 }
