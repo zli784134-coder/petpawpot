@@ -1,5 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { useLocation } from 'wouter';
+import { trackEvent } from '@/lib/analytics';
+import { AI_NUTRITIONIST_URL } from '@/lib/constants';
 
 /**
  * GA4 单页路由补发。
@@ -39,6 +41,35 @@ export default function Analytics() {
     }, 0);
     return () => window.clearTimeout(timer);
   }, [location]);
+
+  // CTA 点击：用**事件委托**而不是给十几个链接逐个加 onClick。
+  // 站内跳 VeraBowl 的入口分散在 6 个页面、跳 /partners 的又是另几处；
+  // 集中在这里既少改十几个文件，也保证以后新增的 CTA 自动被覆盖。
+  // 用捕获阶段：即使某个链接自己 stopPropagation，也仍然记得到。
+  useEffect(() => {
+    const onClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement | null;
+      const anchor = target?.closest?.('a');
+      if (!anchor) return;
+
+      const href = anchor.getAttribute('href') ?? '';
+      let destination: string | null = null;
+      if (href.startsWith(AI_NUTRITIONIST_URL) || href.startsWith('https://verabowl.com')) {
+        destination = 'verabowl';
+      } else if (href === '/partners') {
+        destination = 'partners';
+      }
+      if (!destination) return;
+
+      trackEvent('cta_click', {
+        destination,
+        page: window.location.pathname,
+      });
+    };
+
+    document.addEventListener('click', onClick, true);
+    return () => document.removeEventListener('click', onClick, true);
+  }, []);
 
   return null;
 }

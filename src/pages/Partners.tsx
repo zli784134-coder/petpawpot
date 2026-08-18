@@ -1,7 +1,9 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import Seo from '@/components/Seo';
 import { IMAGES } from '@/lib/constants';
+import TrackPageEvent from '@/components/TrackPageEvent';
+import { trackEvent } from '@/lib/analytics';
 import {
   Handshake,
   TrendingUp,
@@ -24,6 +26,14 @@ export default function Partners() {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [failed, setFailed] = useState(false);
+  // form_start:表单内**第一次真正输入**时报一次。挂在 onInput 上(冒泡覆盖
+  // 全部字段),而不是聚焦或页面到达——点进来看看不算"开始填"。
+  const formStartedRef = useRef(false);
+  const markFormStarted = () => {
+    if (formStartedRef.current) return;
+    formStartedRef.current = true;
+    trackEvent('form_start', { form: 'partner-inquiry' });
+  };
 
   const provides = [1, 2, 3, 4, 5].map((n, i) => ({
     icon: PROVIDE_ICONS[i],
@@ -68,6 +78,14 @@ export default function Partners() {
         // 只有服务端确认成功才显示成功页
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         setSubmitted(true);
+        // generate_lead 只在服务端确认成功后发。上面 !res.ok 抛错、超时中止、
+        // 网络失败都会走 catch,不会到这里 —— 点了提交按钮本身绝不算成功。
+        // partnership_type 是下拉枚举值(retailer/distributor/...),非自由文本;
+        // 公司名、联系人、邮箱、留言正文一律不上报。
+        trackEvent('generate_lead', {
+          form: 'partner-inquiry',
+          partnership_type: String(data.partnershipType ?? ''),
+        });
       } catch {
         setFailed(true);
       } finally {
@@ -80,6 +98,7 @@ export default function Partners() {
   return (
     <main>
       <Seo titleKey="seo.partners.title" descKey="seo.partners.description" />
+      <TrackPageEvent event="partners_page_view" page="partners" />
       {/* ===== Hero ===== */}
       <section className="bg-cream">
         <div className="container py-16 lg:py-24 text-center">
@@ -216,6 +235,7 @@ export default function Partners() {
               </div>
             ) : (
               <form
+                onInput={markFormStarted}
                 name="partner-inquiry"
                 method="POST"
                 data-netlify="true"
